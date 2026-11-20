@@ -56,15 +56,53 @@ def normalize_url(url: str) -> str:
     return urlunparse((scheme, netloc, path, "", "", ""))
 
 
-def clean_text(raw: str, max_len: int = 280) -> str:
-    """Strip HTML tags and collapse whitespace."""
+_CJK_CHARS = r"\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\u4e00-\u9fff\uff01-\uff60"
+_JP_OPEN = r"「『（【［〈《"
+_JP_CLOSE = r"」』）】］〉》、。・！？："
+_BLOCK_TAGS = ("p", "div", "li", "br", "h1", "h2", "h3", "h4", "h5", "h6", "tr", "blockquote")
+_SHORTCODE_RE = re.compile(r"\[/?[A-Za-z][A-Za-z0-9_=-]*(?:\s+[^\]]*)?\]|\[/?[A-Za-z][A-Za-z0-9_=-]*$")
+_BOILERPLATE_RE = re.compile(r"(?:関連記事\s*[:：]|(?:^|[\s。！？])目次(?:\s|$))")
+
+
+def _html_to_plain_text(raw_html: str) -> str:
+    soup = BeautifulSoup(raw_html, "html.parser")
+    for tag in soup(["script", "style", "noscript"]):
+        tag.decompose()
+    for tag in soup.find_all(_BLOCK_TAGS):
+        if tag.name == "br":
+            tag.replace_with(" ")
+        else:
+            tag.append(" ")
+    return soup.get_text("")
+
+
+def clean_text(raw: str, max_len: int = 280, strip_boilerplate: bool = False) -> str:
+    """Strip HTML tags, CMS shortcodes, and unnatural spaces around Japanese characters."""
     if not raw:
         return ""
     text = raw
     if "<" in text and ">" in text:
-        text = BeautifulSoup(text, "html.parser").get_text(" ")
+        text = _html_to_plain_text(text)
     text = html.unescape(text)
+    text = _SHORTCODE_RE.sub("", text)
     text = re.sub(r"\s+", " ", text).strip()
+
+    if strip_boilerplate:
+        m = _BOILERPLATE_RE.search(text)
+        if m and m.start() >= 40:
+            # Keep sentence-ending punctuation if it was matched right before "目次"
+            cut_pos = m.start() + 1 if text[m.start()] in "。！？" else m.start()
+            text = text[:cut_pos].rstrip(" 、・")
+
+    # Remove unnatural spaces inserted around Japanese characters/punctuation
+    # while preserving spaces between Latin words (e.g., "World Travel Awards").
+    text = re.sub(rf"(?<=[{_JP_OPEN}]) ", "", text)
+    text = re.sub(rf" (?=[{_JP_CLOSE}])", "", text)
+    text = re.sub(rf"(?<=[{_CJK_CHARS}]) (?=[{_CJK_CHARS}])", "", text)
+    text = re.sub(rf"(?<=[{_CJK_CHARS}]) (?=[A-Za-z0-9])", "", text)
+    text = re.sub(rf"(?<=[A-Za-z0-9]) (?=[{_CJK_CHARS}])", "", text)
+    text = re.sub(r"\s{2,}", " ", text).strip()
+
     if len(text) > max_len:
         return text[: max_len - 1].rstrip() + "…"
     return text
@@ -158,7 +196,7 @@ def parse_rss_content(xml_content: bytes | str, source: SourceConfig, limit: int
         raw_summary = entry.get("summary") or entry.get("description") or ""
         if not raw_summary and entry.get("content"):
             raw_summary = entry["content"][0].get("value", "")
-        excerpt = clean_text(raw_summary, max_len=280)
+        excerpt = clean_text(raw_summary, max_len=280, strip_boilerplate=True)
 
         tags = [
             clean_text(t.get("term", ""), max_len=40)
@@ -205,6 +243,7 @@ def parse_wp_api_posts(posts: list[dict[str, Any]], source: SourceConfig, limit:
         excerpt = clean_text(
             excerpt_obj.get("rendered", "") if isinstance(excerpt_obj, dict) else str(excerpt_obj),
             max_len=280,
+            strip_boilerplate=True,
         )
         published_at = parse_date_to_iso(post.get("date") or post.get("modified"), fallback_url=norm_url)
 
@@ -299,7 +338,7 @@ def parse_listing_html(html_text: str, source: SourceConfig, limit: int) -> list
 
         excerpt = ""
         for p in container.find_all("p"):
-            p_text = clean_text(p.get_text(" ", strip=True), max_len=260)
+            p_text = clean_text(str(p), max_len=260, strip_boilerplate=True)
             if len(p_text) >= 25 and p_text != title:
                 excerpt = p_text
                 break
@@ -351,7 +390,7 @@ def _enrich_missing_excerpts(
                 or soup.find("meta", attrs={"name": "description"})
             )
             if meta_desc and meta_desc.get("content"):
-                article.excerpt = clean_text(meta_desc["content"], max_len=280)
+                article.excerpt = clean_text(meta_desc["content"], max_len=280, strip_boilerplate=True)
             if not article.image_url:
                 og_img = soup.find("meta", attrs={"property": "og:image"})
                 if og_img and og_img.get("content"):

@@ -24,7 +24,7 @@ from scripts.config import (
     SOURCES,
     TOPICS,
 )
-from scripts.fetchers import RawArticle, fetch_source_articles, normalize_url
+from scripts.fetchers import RawArticle, clean_text, fetch_source_articles, normalize_url
 from scripts.slack_notify import notify_slack
 from scripts.summarizer import summarize_article
 
@@ -175,9 +175,14 @@ def run_collection(
         if summary_type == "ai":
             ai_used += 1
 
-    # Re-classify existing articles as well so keyword improvements propagate automatically
+    # Re-classify and re-clean existing articles so rule improvements propagate automatically
     merged_map: dict[str, dict[str, Any]] = dict(existing_by_url)
     for url_key, existing_item in merged_map.items():
+        if existing_item.get("excerpt"):
+            cleaned_excerpt = clean_text(existing_item["excerpt"], max_len=280, strip_boilerplate=True)
+            existing_item["excerpt"] = cleaned_excerpt
+            if existing_item.get("summary_type") != "ai":
+                existing_item["summary"] = cleaned_excerpt
         topics, matched_keywords = classify_article(
             title=existing_item.get("title", ""),
             summary=existing_item.get("excerpt") or existing_item.get("summary", ""),
