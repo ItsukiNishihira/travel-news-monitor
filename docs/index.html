@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>沖縄宿泊ニュース・ブリーフ | HotelBank・訪日ラボ・トラベルボイス統合モニター</title>
+    <meta
+      name="description"
+      content="HotelBank・訪日ラボ・トラベルボイスの最新記事を毎日自動収集し、沖縄関連・宮古島石垣島・DX関連の3分野で素早くチェックできる個人用ニュースサイト。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;600;700&family=Shippori+Mincho:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="container">
+        <div class="masthead-top">
+          <div>
+            <p class="brand-eyebrow">TRAVEL NEWS MONITOR · OKINAWA HOSPITALITY</p>
+            <h1 class="brand-title">沖縄宿泊ニュース・ブリーフ</h1>
+            <p class="brand-subtitle">
+              HotelBank・訪日ラボ・トラベルボイスの最新動向を「沖縄」「宮古島・石垣島」「DX」の3軸で毎日整理
+            </p>
+          </div>
+          <div class="masthead-actions">
+            <button
+              type="button"
+              id="btn-mark-all-read"
+              class="icon-btn"
+              title="表示中の記事をすべて既読にする"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 6 9 17l-5-5" />
+              </svg>
+              <span>すべて既読</span>
+            </button>
+            <button
+              type="button"
+              id="btn-theme-toggle"
+              class="icon-btn"
+              aria-label="カラーテーマを切り替え"
+            >
+              <svg id="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+              </svg>
+              <span id="theme-label">ダーク</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="meta-strip">
+          <div class="meta-updated">
+            <span>最終更新:</span>
+            <time id="last-updated">読み込み中…</time>
+          </div>
+          <div id="source-statuses" class="source-statuses" aria-label="収集元サイトのステータス"></div>
+        </div>
+
+        <div id="seed-banner" class="seed-banner" hidden>
+          <span>
+            現在は初期サンプルデータを表示しています。GitHub Actions の <strong>Collect Travel &amp; Hotel News</strong> を実行すると、3サイトの最新記事へ自動更新されます。
+          </span>
+          <button type="button" id="btn-close-seed-banner" class="seed-banner-close">閉じる</button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="topic-nav-section" aria-label="分野フィルター">
+      <div class="container">
+        <div id="topic-tabs" class="topic-tabs" role="group" aria-label="分野で絞り込み">
+          <button type="button" class="topic-tab" data-topic="all" aria-pressed="true">
+            <span>すべて</span>
+            <span class="topic-tab-count" id="count-all">0</span>
+          </button>
+          <button type="button" class="topic-tab" data-topic="okinawa" aria-pressed="false">
+            <span class="topic-dot okinawa" aria-hidden="true"></span>
+            <span>沖縄関連</span>
+            <span class="topic-tab-count" id="count-okinawa">0</span>
+          </button>
+          <button type="button" class="topic-tab" data-topic="miyako_ishigaki" aria-pressed="false">
+            <span class="topic-dot miyako" aria-hidden="true"></span>
+            <span>宮古島・石垣島</span>
+            <span class="topic-tab-count" id="count-miyako_ishigaki">0</span>
+          </button>
+          <button type="button" class="topic-tab" data-topic="dx" aria-pressed="false">
+            <span class="topic-dot dx" aria-hidden="true"></span>
+            <span>DX関連</span>
+            <span class="topic-tab-count" id="count-dx">0</span>
+          </button>
+          <button type="button" class="topic-tab" data-topic="saved" aria-pressed="false">
+            <span>★ 保存済み</span>
+            <span class="topic-tab-count" id="count-saved">0</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section class="controls-bar" aria-label="詳細フィルターと検索">
+        <div id="source-filters" class="source-filters" role="group" aria-label="メディアで絞り込み">
+          <button type="button" class="source-chip" data-source="all" aria-pressed="true">全メディア</button>
+          <button type="button" class="source-chip" data-source="hotelbank" aria-pressed="false">HotelBank</button>
+          <button type="button" class="source-chip" data-source="honichi" aria-pressed="false">訪日ラボ</button>
+          <button type="button" class="source-chip" data-source="travelvoice" aria-pressed="false">トラベルボイス</button>
+        </div>
+
+        <div class="controls-right">
+          <div class="search-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" />
+            </svg>
+            <input
+              type="search"
+              id="search-input"
+              class="search-input"
+              placeholder="キーワード検索（例: ADR, 免税, 那覇）"
+              aria-label="記事を検索"
+            />
+            <button type="button" id="btn-search-clear" class="search-clear" aria-label="検索をクリア" hidden>
+              ×
+            </button>
+          </div>
+
+          <select id="sort-select" class="sort-select" aria-label="並び替え">
+            <option value="newest">新着順</option>
+            <option value="priority">注目分野優先</option>
+          </select>
+
+          <label class="unread-toggle">
+            <input type="checkbox" id="toggle-unread-only" />
+            <span>未読のみ</span>
+          </label>
+        </div>
+      </section>
+
+      <div class="results-header">
+        <p id="results-summary" class="results-summary">記事を読み込んでいます…</p>
+        <p id="topic-description" class="topic-description"></p>
+      </div>
+
+      <section id="articles-grid" class="articles-grid" aria-live="polite"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          Travel News Monitor · GitHub Actions + GitHub Pages で毎朝自動更新
+        </div>
+        <div class="kbd-hints">
+          <span><kbd>/</kbd> 検索</span>
+          <span><kbd>1</kbd> すべて</span>
+          <span><kbd>2</kbd> 沖縄</span>
+          <span><kbd>3</kbd> 宮古・石垣</span>
+          <span><kbd>4</kbd> DX</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
