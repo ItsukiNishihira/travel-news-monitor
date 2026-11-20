@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "updated_at": "2026-11-20T08:00:00+09:00",
+    "total_articles": 12,
+    "new_articles_last_run": 12,
+    "ai_summaries_last_run": 0,
+    "is_initial_seed": true,
+    "topic_counts": {
+      "miyako_ishigaki": 2,
+      "okinawa": 4,
+      "dx": 6
+    },
+    "topics": [
+      {
+        "id": "miyako_ishigaki",
+        "label": "宮古島・石垣島",
+        "short_label": "宮古・石垣",
+        "description": "宮古諸島・八重山諸島（宮古島・石垣島・下地島・伊良部・竹富・西表など）の宿泊・観光動向"
+      },
+      {
+        "id": "okinawa",
+        "label": "沖縄関連",
+        "short_label": "沖縄",
+        "description": "沖縄本島・那覇・恩納村・北谷・ジャングリアなど沖縄県全体の宿泊・観光ニュース"
+      },
+      {
+        "id": "dx",
+        "label": "DX関連",
+        "short_label": "DX",
+        "description": "AI・レベニューマネジメント・省力化・PMS/OTA・キャッシュレス・データ活用など宿泊DX"
+      }
+    ],
+    "sources": [
+      {
+        "id": "hotelbank",
+        "name": "HotelBank",
+        "url": "https://hotelbank.jp/",
+        "status": "ok",
+        "fetched_count": 5,
+        "method": "seed",
+        "checked_at": "2026-11-20T08:00:00+09:00"
+      },
+      {
+        "id": "honichi",
+        "name": "訪日ラボ",
+        "url": "https://honichi.com/",
+        "status": "ok",
+        "fetched_count": 4,
+        "method": "seed",
+        "checked_at": "2026-11-20T08:00:00+09:00"
+      },
+      {
+        "id": "travelvoice",
+        "name": "トラベルボイス",
+        "url": "https://www.travelvoice.jp/",
+        "status": "ok",
+        "fetched_count": 3,
+        "method": "seed",
+        "checked_at": "2026-11-20T08:00:00+09:00"
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "hb-20261120-hojo",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "宿泊業の省力化投資補助金は補助率1/2・上限1,000万円｜50〜200室の1室負担5.9万〜6.8万円と回収年数",
+      "url": "https://hotelbank.jp/",
+      "published_at": "2026-11-20T15:20:00+09:00",
+      "collected_at": "2026-11-20T08:00:00+09:00",
+      "excerpt": "観光庁が宿泊事業者向けの「省力化投資セミナー」を開催。補助率1/2・上限1,000万円の観光地・観光産業における省力化投資補助事業について、客室規模ごとの1室あたり負担額と投資回収年数を試算しています。",
+      "summary": "観光庁が宿泊事業者向けの「省力化投資セミナー」を開催。補助率1/2・上限1,000万円の観光地・観光産業における省力化投資補助事業について、客室規模ごとの1室あたり負担額と投資回収年数を試算しています。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "省力化"
+      ],
+      "tags": [
+        "業界トレンド",
+        "省力化",
+        "補助金"
+      ],
+      "image_url": "",
+      "is_seed": true
+    },
+    {
+      "id": "hn-20261120-refund",
+      "source_id": "honichi",
+      "source_name": "訪日ラボ",
+      "title": "ネットスターズ、リファンド方式対応の免税送金サービス開始 WeChat Pay・Alipayなどに対応",
+      "url": "https://honichi.com/news/",
+      "published_at": "2026-11-20T11:00:00+09:00",
+      "collected_at": "2026-11-20T08:00:00+09:00",
+      "excerpt": "株式会社ネットスターズは11月1日より、新たな消費税免税制度「リファンド方式」に対応する送金サービスを開始。WeChat PayやAlipayなど海外決済アプリへの返金処理に対応します。",
+      "summary": "株式会社ネットスターズは11月1日より、新たな消費税免税制度「リファンド方式」に対応する送金サービスを開始。WeChat PayやAlipayなど海外決済アプリへの返金処理に対応します。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "リファンド方式",
+        "免税送金",
+        "アプリ"
+      ],
+      "tags": [
+        "免税",
+        "キャッシュレス",
+        "インバウンド"
+      ],
+      "image_url": "",
+      "is_seed": true
+    },
+    {
+      "id": "hb-20261118-minn-naha",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "Minn 那覇美栄橋が開業、42室・全室6名のアパートメントホテル — 駅1km圏1.04万室と那覇市ADR1.02万円",
+      "url": "https://hotelbank.jp/",
+      "published_at": "2026-11-18T10:00:00+09:00",
+      "collected_at": "2026-11-20T08:00:00+09:00",
+      "excerpt": "SQUEEZEが沖縄県初となる「Minn 那覇美栄橋」を開業。全42室が41㎡・最大6名定員でキッチン・洗濯乾燥機を完備。美栄橋駅1km圏の客室供給1.04万室と那覇市ADR1.02万円の市場構造を分析。",
+      "summary": "SQUEEZEが沖縄県初となる「Minn 那覇美栄橋」を開業。全42室が41㎡・最大6名定員でキッチン・洗濯乾燥機を完備。美栄橋駅1km圏の客室供給1.04万室と那覇市ADR1.02万円の市場構造を分析。",
+      "summary_type": "excerpt",
+      "topics": [
+        "okinawa"
+      ],
+      "matched_keywords": [
+        "沖縄",
+        "那覇",
+        "美栄橋"
+      ],
+      "tags": [
+        "新規開業・供給",
+        "沖縄",
+        "那覇"
+      ],
+      "image_url": "",
+      "is_seed": true
+    },
+    {
+      "id": "tv-20261118-jnto",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "【図解】訪日外国人数、2026年10月は391万人、単月の過去最多を更新、3カ月ぶりに前年越え ―日本政府観光局（速報）",
+      "url": "https://www.travelvoice.jp/",
+      "published_at": "2026-11-18T16:30:00+09:00",
+      "collected_at": "2026-11-20T08:00:00+09:00",
+      "excerpt": "日本政府観光局（JNTO）が発表した2026年10月の訪日外客数（推計値）は391万人となり、単月として過去最多を更新。東アジアおよび欧米豪からの需要増が全体を押し上げました。",
+      "summary": "日本政府観光局（JNTO）が発表した2026年10月の訪日外客数（推計値）は391万人となり、単月として過去最多を更新。東アジアおよび欧米豪からの需要増が全体を押し上げました。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "インバウンド",
+        "JNTO",
+        "統計"
+      ],
+      "image_url": "",
+      "is_seed": true
+    },
+    {
+      "id": "tv-20261116-faceauth",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "海外旅行からパスポートが消える日は近い？ ドバイや米国が進める顔認証、最大の課題は「技術より連携」",
+      "url": "https://www.travelvoice.jp/",
+      "published_at": "2026-11-16T09:00:00+09:00",
+      "collected_at": "2026-11-20T08:00:00+09:00",
+      "excerpt": "空港やホテルチェックインにおける顔認証・生体認証の導入がドバイや米国で加速。シームレスな旅行体験の実現に向けたデータ連携とプライバシー管理の論点を整理します。",
+      "summary": "空港やホテルチェックインにおける顔認証・生体認証の導入がドバイや米国で加速。シームレスな旅行体験の実現に向けたデータ連携とプライバシー管理の論点を整理します。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "顔認証",
+        "生体認証"
+      ],
+      "tags": [
+        "テクノロジー",
+        "顔認証",
+        "海外事例"
+      ],
+      "image_url": "",
+      "is_seed": true
+    },
+    {
+      "id": "hn-20261115-ai-hotel",
+      "source_id": "honichi",
+      "source_name": "訪日ラボ",
+      "title": "AIが選ぶホテルTOP10［京都駅編］｜4つのAIが満場一致で1位に選んだホテルは？",
+      "url": "https://honichi.com/reports/",
+      "published_at": "2026-11-15T10:00:00+09:00",
+      "collected_at": "2026-11-20T08:00:00+09:00",
+      "excerpt": "生成AIを使ったホテル検索が増える中、主要4つのAIモデルが推薦する宿泊施設の傾向と口コミ評価の相関を検証。AI検索時代に宿が整えるべき情報発信ポイントを解説します。",
+      "summary": "生成AIを使ったホテル検索が増える中、主要4つのAIモデルが推薦する宿泊施設の傾向と口コミ評価の相関を検証。AI検索時代に宿が整えるべき情報発信ポイントを解説します。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "生成AI",
+        "AI"
+      ],
+      "tags": [
+        "AI",
+        "口コミ分析",
+        "宿泊施設"
+      ],
+      "image_url": "",
+      "is_seed": true
+    },
+    {
+      "id": "hb-20261112-okinawa-openings",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "沖縄のホテル新規開業2026は104軒2,950室 — 純増1,850室、那覇・北谷・宮古島・恩納の推定成約ADR",
+      "url": "https://hotelbank.jp/investment/okinawa-hotel-new-openings-2026-104-properties-2950-rooms-net-new-1850-vs-rebrand/",
+      "published_at": "2026-11-12T09:30:00+09:00",
+      "collected_at": "2026-11-20T08:00:00+09:00",
+      "excerpt": "2026年の沖縄県ホテル新規開業は104軒・2,950室（リブランド除く純増1,850室）。供給増のなかでも那覇市・北谷町・宮古島市・恩納村の推定成約ADRは前年を上回る水準で推移しています。",
+      "summary": "2026年の沖縄県ホテル新規開業は104軒・2,950室（リブランド除く純増1,850室）。供給増のなかでも那覇市・北谷町・宮古島市・恩納村の推定成約ADRは前年を上回る水準で推移しています。",
+      "summary_type": "excerpt",
+      "topics": [
+        "miyako_ishigaki",
+        "okinawa"
+      ],
+      "matched_keywords": [
+        "宮古島",
+        "沖縄",
+        "那覇",
+        "北谷",
+        "恩納"
+      ],
+      "tags": [
+        "投資・開発",
+        "沖縄",
+        "ADR"
+      ],
+      "image_url": "",
+      "is_seed": true
+    },
+    {
+      "id": "tv-20261112-expedia-b2b",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "日本の旅行会社が乗り越えるべき「旅行予約システム」の壁とは？ 出張需要を確実に獲得するために取り組むべきこと",
+      "url": "https://www.travelvoice.jp/",
+      "published_at": "2026-11-12T09:00:00+09:00",
+      "collected_at": "2026-11-20T08:00:00+09:00",
+      "excerpt": "法人出張やダイナミックパッケージの需要を取り込むための予約システム刷新とAPI連携の重要性について、エクスペディア・グループ幹部が最新トレンドを解説。",
+      "summary": "法人出張やダイナミックパッケージの需要を取り込むための予約システム刷新とAPI連携の重要性について、エクスペディア・グループ幹部が最新トレンドを解説。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "予約システム",
+        "API"
+      ],
+      "tags": [
+        "予約システム",
+        "OTA",
+        "DX"
+      ],
+      "image_url": "",
+      "is_seed": true
+    },
+    {
+      "id": "hb-20261111-miyakojima",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "宮古島のホテル供給は9年で2.9倍、投資に必要なADRは6.4万円 — 下地島空港の国際線拡大と単価構造",
+      "url": "https://hotelbank.jp/investment/miyakojima-hirara-3km-hotel-supply-2-9x-required-adr-tsunami-zone-2026/",
+      "published_at": "2026-11-11T10:00:00+09:00",
+      "collected_at": "2026-11-20T08:00:00+09:00",
+      "excerpt": "平良3km圏の客室ストックは2017年の1,009室から2026年には2,886室へ2.9倍増。宮古島市の推定成約ADRは県平均の1.3倍を維持し、下地島空港の国際線も初の10万人超を記録しています。",
+      "summary": "平良3km圏の客室ストックは2017年の1,009室から2026年には2,886室へ2.9倍増。宮古島市の推定成約ADRは県平均の1.3倍を維持し、下地島空港の国際線も初の10万人超を記録しています。",
+      "summary_type": "excerpt",
+      "topics": [
+        "miyako_ishigaki",
+        "okinawa"
+      ],
+      "matched_keywords": [
+        "宮古島",
+        "下地島",
+        "平良"
+      ],
+      "tags": [
+        "投資・開発",
+        "宮古島",
+        "沖縄"
+      ],
+      "image_url": "",
+      "is_seed": true
+    },
+    {
+      "id": "hn-20261111-lonelyplanet-okinawa",
+      "source_id": "honichi",
+      "source_name": "訪日ラボ",
+      "title": "JNTO、海外トラベルアワード受賞動向を報告 ロンリープラネット「2027年に訪れるべき場所50選」に沖縄・東北が選出",
+      "url": "https://honichi.com/news/2026/11/11/mediabriefing202610/",
+      "published_at": "2026-11-11T11:30:00+09:00",
+      "collected_at": "2026-11-20T08:00:00+09:00",
+      "excerpt": "JNTOメディアブリーフィングにて海外メディアの評価を紹介。地域単位ではロンリープラネット「2027年に訪れるべき場所50選」に沖縄と東北が選出され、欧米豪からの注目度が高まっています。",
+      "summary": "JNTOメディアブリーフィングにて海外メディアの評価を紹介。地域単位ではロンリープラネット「2027年に訪れるべき場所50選」に沖縄と東北が選出され、欧米豪からの注目度が高まっています。",
+      "summary_type": "excerpt",
+      "topics": [
+        "okinawa"
+      ],
+      "matched_keywords": [
+        "沖縄"
+      ],
+      "tags": [
+        "JNTO",
+        "沖縄",
+        "インバウンド"
+      ],
+      "image_url": "",
+      "is_seed": true
+    },
+    {
+      "id": "hb-20261106-metrotrail",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "予約急増を検知し料金ランク変更を上位5件で提示、小規模宿泊施設向けアプリ「MetroTrail」をメトロエンジンが提供開始",
+      "url": "https://hotelbank.jp/",
+      "published_at": "2026-11-06T12:00:00+09:00",
+      "collected_at": "2026-11-20T08:00:00+09:00",
+      "excerpt": "メトロエンジンが小規模ホテル・旅館・民泊向けにレベニューマネジメント支援アプリ「MetroTrail」を提供開始。予約急増日を自動検知し、優先的に料金ランクを調整すべき日程を提示します。",
+      "summary": "メトロエンジンが小規模ホテル・旅館・民泊向けにレベニューマネジメント支援アプリ「MetroTrail」を提供開始。予約急増日を自動検知し、優先的に料金ランクを調整すべき日程を提示します。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "レベニューマネジメント",
+        "アプリ",
+        "メトロエンジン"
+      ],
+      "tags": [
+        "レベニューマネジメント",
+        "DX",
+        "小規模施設"
+      ],
+      "image_url": "",
+      "is_seed": true
+    },
+    {
+      "id": "hn-20261119-wta",
+      "source_id": "honichi",
+      "source_name": "訪日ラボ",
+      "title": "日本がアジアを代表するアドベンチャーツーリズムの目的地に 地域文化部門では関西・スポーツ観光地部門では東京が受賞",
+      "url": "https://honichi.com/news/",
+      "published_at": "2026-11-19T14:00:00+09:00",
+      "collected_at": "2026-11-20T08:00:00+09:00",
+      "excerpt": "World Travel Awards 2026アジア部門で日本が複数の観光賞を受賞。高付加価値旅行者向けの体験型コンテンツとホテル連携の重要性が改めて注目されています。",
+      "summary": "World Travel Awards 2026アジア部門で日本が複数の観光賞を受賞。高付加価値旅行者向けの体験型コンテンツとホテル連携の重要性が改めて注目されています。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "宿泊業界",
+        "旅行会社",
+        "高付加価値"
+      ],
+      "image_url": "",
+      "is_seed": true
+    }
+  ]
+}
