@@ -12,6 +12,7 @@ from scripts.classifier import classify_article
 from scripts.config import SOURCES
 from scripts.fetchers import (
     RawArticle,
+    clean_text,
     discover_feed_urls,
     normalize_url,
     parse_listing_html,
@@ -67,6 +68,27 @@ class TestFetchersParsing(unittest.TestCase):
         self.assertEqual(
             normalize_url("https://HotelBank.jp/investment/sample-post/?utm_source=x#top"),
             "https://hotelbank.jp/investment/sample-post",
+        )
+
+    def test_clean_text_japanese_spacing_and_boilerplate(self) -> None:
+        raw_html = (
+            '<p><a href="#">大阪</a> <a href="#">観光局</a> は、'
+            '<a href="#">関西</a> 空港から出国する <a href="#">訪日外国人</a> を対象とした'
+            '「 <a href="#">World Travel Awards</a> 」と（ JNTO ）調査を発表しました。'
+            "[RegistrationWall] 関連記事：別の記事タイトル 目次 見出し1</p>"
+        )
+        cleaned = clean_text(raw_html, strip_boilerplate=True)
+        self.assertEqual(
+            cleaned,
+            "大阪観光局は、関西空港から出国する訪日外国人を対象とした「World Travel Awards」と（JNTO）調査を発表しました。",
+        )
+
+    def test_clean_text_strips_truncated_shortcode(self) -> None:
+        raw = "ZIPAIR Tokyo（以下、 ZIPAIR ）は11月12日に就航を発表しました。 [Regist"
+        cleaned = clean_text(raw, strip_boilerplate=True)
+        self.assertEqual(
+            cleaned,
+            "ZIPAIR Tokyo（以下、ZIPAIR）は11月12日に就航を発表しました。",
         )
 
     def test_parse_rss_content(self) -> None:
