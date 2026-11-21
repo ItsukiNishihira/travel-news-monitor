@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updated_at": "2026-11-20T23:49:00.586994+09:00",
-    "total_articles": 31,
-    "new_articles_last_run": 31,
+    "updated_at": "2026-11-21T12:36:57.233180+09:00",
+    "total_articles": 41,
+    "new_articles_last_run": 10,
     "ai_summaries_last_run": 0,
     "topic_counts": {
       "miyako_ishigaki": 0,
-      "okinawa": 1,
-      "dx": 8
+      "okinawa": 2,
+      "dx": 11
     },
     "topics": [
       {
@@ -37,7 +37,7 @@
         "status": "ok",
         "fetched_count": 10,
         "method": "rss:https://hotelbank.jp/feed/",
-        "checked_at": "2026-11-20T23:49:00.586994+09:00"
+        "checked_at": "2026-11-21T12:36:57.233180+09:00"
       },
       {
         "id": "honichi",
@@ -46,7 +46,7 @@
         "status": "ok",
         "fetched_count": 11,
         "method": "rss:https://honichi.com/feed",
-        "checked_at": "2026-11-20T23:49:00.586994+09:00"
+        "checked_at": "2026-11-21T12:36:57.233180+09:00"
       },
       {
         "id": "travelvoice",
@@ -55,11 +55,263 @@
         "status": "ok",
         "fetched_count": 10,
         "method": "rss:https://www.travelvoice.jp/feed",
-        "checked_at": "2026-11-20T23:49:00.586994+09:00"
+        "checked_at": "2026-11-21T12:36:57.233180+09:00"
       }
     ]
   },
   "articles": [
+    {
+      "id": "afa959ee53fd3fc8",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "八戸市のホテル投資｜中心街1.5km圏23軒2,344室、津波浸水想定内が29%・新築の必要ADR1.06万円",
+      "url": "https://hotelbank.jp/investment/hachinohe-city-center-1-5km-hotel-investment-23-hotels-2344-rooms-tsunami-zone-29pct-required-adr-2026",
+      "published_at": "2026-11-21T12:09:00+09:00",
+      "collected_at": "2026-11-21T12:36:57.233180+09:00",
+      "excerpt": "八戸市のホテル投資を中心街1.5km圏で検証。稼働中は23軒2,344室で、8軒680室（29.0%）が津波浸水想定区域内。市の推定成約ADRは2026年10月に11,065円（前年比+57.3%）だが平常月は6,000円台で、新築120室の必要ADRは約10,600円。BCP投資の1室単価と既存取得の目安も整理する。",
+      "summary": "八戸市のホテル投資を中心街1.5km圏で検証。稼働中は23軒2,344室で、8軒680室（29.0%）が津波浸水想定区域内。市の推定成約ADRは2026年10月に11,065円（前年比+57.3%）だが平常月は6,000円台で、新築120室の必要ADRは約10,600円。BCP投資の1室単価と既存取得の目安も整理する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "BCP投資",
+        "津波浸水想定",
+        "必要ADR",
+        "地価公示",
+        "国民スポーツ大会"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194119-auto.png"
+    },
+    {
+      "id": "8469e009d2af0d02",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "霧島温泉郷のホテル投資｜5km圏41軒1,287室が稼働、霧島市の推定ADRは10月1.36万円・前年比+6.8%",
+      "url": "https://hotelbank.jp/investment/kirishima-onsen-hotel-investment-5km-41-hotels-1287-rooms-adr-hazard-2026",
+      "published_at": "2026-11-21T11:17:00+09:00",
+      "collected_at": "2026-11-21T12:36:57.233180+09:00",
+      "excerpt": "霧島温泉郷の5km圏で稼働中の宿は41軒・1,287室、霧島市の推定成約ADRは2026年10月に1万3,600円（前年同月比+6.8%）。供給の中身、季節の山、土砂災害警戒区域と火口距離、温泉の口コミ評価を整理し、小規模高単価型と中規模型の開発採算を試算する。",
+      "summary": "霧島温泉郷の5km圏で稼働中の宿は41軒・1,287室、霧島市の推定成約ADRは2026年10月に1万3,600円（前年同月比+6.8%）。供給の中身、季節の山、土砂災害警戒区域と火口距離、温泉の口コミ評価を整理し、小規模高単価型と中規模型の開発採算を試算する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "土砂災害警戒区域",
+        "再投資",
+        "霧島市",
+        "霧島温泉",
+        "推定成約ADR"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194122-auto.png"
+    },
+    {
+      "id": "5e92c5b4c42d6d3f",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "京都の確定10月、シティ+12.4%・ビジネス+9.1% — 9月−14.6%からの反転をカレンダーと需要に分けて読む",
+      "url": "https://hotelbank.jp/revenue-management/kyoto-settled-adr-2026-10-yoy-reversal",
+      "published_at": "2026-11-21T10:28:00+09:00",
+      "collected_at": "2026-11-21T12:36:57.233180+09:00",
+      "excerpt": "京都府の推定成約ADRは2026年10月の確定値でシティ¥32,868（前年同月比+12.4%）、ビジネス¥19,704（同+9.1%）。9月のシティ−14.6%からの符号反転を、連休・土曜の配置と需要の厚み、前年のハードルに分けて読み解き、紅葉期から年明けの価格設計の論点を整理する。",
+      "summary": "京都府の推定成約ADRは2026年10月の確定値でシティ¥32,868（前年同月比+12.4%）、ビジネス¥19,704（同+9.1%）。9月のシティ−14.6%からの符号反転を、連休・土曜の配置と需要の厚み、前年のハードルに分けて読み解き、紅葉期から年明けの価格設計の論点を整理する。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "レベニューマネジメント",
+        "レベニュー",
+        "revenue-management"
+      ],
+      "tags": [
+        "レベニューマネジメント",
+        "季節・イベント",
+        "推定成約ADR",
+        "前年比",
+        "紅葉",
+        "シティホテル"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195141-auto.png"
+    },
+    {
+      "id": "5b45cc5302512fa1",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "ホテルのプール改修費を1室1泊に換算｜口コミ上位100軒は沖縄42軒、公開見積りは5.1億〜11.4億円【2026】",
+      "url": "https://hotelbank.jp/investment/hotel-pool-review-top100-okinawa-42-renovation-capex-per-room-2026",
+      "published_at": "2026-11-21T10:10:00+09:00",
+      "collected_at": "2026-11-21T12:36:57.233180+09:00",
+      "excerpt": "ホテルのプール改修費の目安を自治体の公開見積り（初期費用5.12億〜11.37億円）から換算すると、300室で1室当たり171万〜379万円、1室1泊当たり413〜1,205円。プールが口コミで語られる宿100軒は沖縄県に42軒、8月から10月の単価差は−24〜−31%。季節営業と通年営業の負担の違いを試算した。",
+      "summary": "ホテルのプール改修費の目安を自治体の公開見積り（初期費用5.12億〜11.37億円）から換算すると、300室で1室当たり171万〜379万円、1室1泊当たり413〜1,205円。プールが口コミで語られる宿100軒は沖縄県に42軒、8月から10月の単価差は−24〜−31%。季節営業と通年営業の負担の違いを試算した。",
+      "summary_type": "excerpt",
+      "topics": [
+        "okinawa",
+        "dx"
+      ],
+      "matched_keywords": [
+        "沖縄",
+        "恩納村",
+        "恩納",
+        "okinawa",
+        "口コミ分析"
+      ],
+      "tags": [
+        "投資・開発",
+        "改修費",
+        "Capex",
+        "ホテルプール",
+        "恩納村",
+        "口コミ分析"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194263-auto.png"
+    },
+    {
+      "id": "0dfd5794a3794c10",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "長崎のシティホテル、確定10月の推定成約ADRは前年比+28.2% — くんちの日程要因か水準の切り上がりか、11〜12月の下限レートの置き方",
+      "url": "https://hotelbank.jp/revenue-management/nagasaki-city-business-adr-oct-2026-kunchi-floor-rate",
+      "published_at": "2026-11-21T10:03:00+09:00",
+      "collected_at": "2026-11-21T12:36:57.233180+09:00",
+      "excerpt": "長崎県シティホテルの確定10月の推定成約ADRは¥16,944で前年同月比+28.2%、ビジネスは+12.2%。くんち3日間と下旬の平日の推定OCC、ブッキングカーブから跳ねを分解し、11〜12月の下限を前年・前々年の確定値で2段に置く考え方を示す。",
+      "summary": "長崎県シティホテルの確定10月の推定成約ADRは¥16,944で前年同月比+28.2%、ビジネスは+12.2%。くんち3日間と下旬の平日の推定OCC、ブッキングカーブから跳ねを分解し、11〜12月の下限を前年・前々年の確定値で2段に置く考え方を示す。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "レベニューマネジメント",
+        "レベニュー",
+        "ブッキングカーブ",
+        "revenue-management"
+      ],
+      "tags": [
+        "エリア・施設分析",
+        "レベニューマネジメント",
+        "下限レート",
+        "推定成約ADR",
+        "前年同月比",
+        "長崎くんち"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195008-auto.png"
+    },
+    {
+      "id": "c375d2c6a8612735",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "石巻のホテル開業2026年、Tabist82室とテトラ51室は看板替え — 駅2km圏稼働801室・市ADR5,296円",
+      "url": "https://hotelbank.jp/investment/ishinomaki-hotel-rebrand-2026-tabist-82-rooms-tetora-51-rooms-station-2km-801-rooms-adr",
+      "published_at": "2026-11-21T10:02:00+09:00",
+      "collected_at": "2026-11-21T12:36:57.233180+09:00",
+      "excerpt": "石巻市で2026年に開業計上されたホテルのうち、Tabist石巻82室とホテルテトラ石巻51室は既存建物の看板替え。石巻駅2km圏の稼働は15軒801室、市の10月推定成約ADRは5,296円（前年同月比+1.3%）。新築の必要ADR約8,400円との差から、ブランド編入型の再生が選ばれる条件を読む。",
+      "summary": "石巻市で2026年に開業計上されたホテルのうち、Tabist石巻82室とホテルテトラ石巻51室は既存建物の看板替え。石巻駅2km圏の稼働は15軒801室、市の10月推定成約ADRは5,296円（前年同月比+1.3%）。新築の必要ADR約8,400円との差から、ブランド編入型の再生が選ばれる条件を読む。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "Tabist",
+        "看板替え",
+        "石巻",
+        "ホテルテトラ",
+        "推定成約ADR"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-193819-auto.png"
+    },
+    {
+      "id": "d6946746a306adf0",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "クラブウィンダム丸池志賀高原が2026年12月開業｜全16室、3km圏47軒1,942室と冬の単価",
+      "url": "https://hotelbank.jp/supply-pipeline/club-wyndham-maruike-shiga-kogen-16-rooms-dec-2026-3km-stock-winter-adr",
+      "published_at": "2026-11-21T10:00:00+09:00",
+      "collected_at": "2026-11-21T12:36:57.233180+09:00",
+      "excerpt": "クラブウィンダム丸池志賀高原が2026年12月に全16室で開業する。丸池スキー場3km圏の客室ストック47軒1,942室、山ノ内町の冬の推定成約ADR（2025年12月16,360円）、口コミの「ゲレンデ至近」言及率20.7%を重ね、小規模宿の再生余地を分析する。",
+      "summary": "クラブウィンダム丸池志賀高原が2026年12月に全16室で開業する。丸池スキー場3km圏の客室ストック47軒1,942室、山ノ内町の冬の推定成約ADR（2025年12月16,360円）、口コミの「ゲレンデ至近」言及率20.7%を重ね、小規模宿の再生余地を分析する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "新規開業・供給",
+        "クラブウィンダム",
+        "トラベルアンドレジャー",
+        "山ノ内町",
+        "推定成約ADR",
+        "志賀高原"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194099-auto.png"
+    },
+    {
+      "id": "dacbec2e7238c6ac",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "鹿児島県のホテル新規開業2026は66軒441室｜霧島150室・天文館151室、離島に37軒",
+      "url": "https://hotelbank.jp/supply-pipeline/kagoshima-new-hotel-openings-2026-66-properties-441-rooms-kirishima-islands",
+      "published_at": "2026-11-21T10:00:00+09:00",
+      "collected_at": "2026-11-21T12:36:57.233180+09:00",
+      "excerpt": "鹿児島県の2026年のホテル新規開業は66軒・441室。客室の68%は霧島150室・天文館151室の大型2件が、軒数の56%は奄美群島・屋久島など離島の37軒が占める。市町村別の推定成約ADRと新規施設の価格帯、2km圏の客室変化を分析する。",
+      "summary": "鹿児島県の2026年のホテル新規開業は66軒・441室。客室の68%は霧島150室・天文館151室の大型2件が、軒数の56%は奄美群島・屋久島など離島の37軒が占める。市町村別の推定成約ADRと新規施設の価格帯、2km圏の客室変化を分析する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "新規開業・供給",
+        "天文館",
+        "霧島市",
+        "奄美大島",
+        "屋久島",
+        "鹿児島県"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194409-auto.png"
+    },
+    {
+      "id": "a4d1659cdfed03ad",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "会席料理が口コミで評判の宿100軒｜神奈川10軒・群馬8軒、29室以下は言及率8.5%で最も高い",
+      "url": "https://hotelbank.jp/industry-trends/kaiseki-dinner-review-top100-ryokan-dinner-upsell-new-year-2026",
+      "published_at": "2026-11-21T10:00:00+09:00",
+      "collected_at": "2026-11-21T12:36:57.233180+09:00",
+      "excerpt": "会席料理が口コミで評判の宿は、上位100軒で言及6,263件、神奈川10軒・群馬8軒が上位。29室以下は言及率8.5%と規模が小さいほど高い。ホテルの朝食付き→2食付きの上乗せは会席上位7道県で中央値約9,000円、前年の大晦日の掲載最安値は12月平日の2.9倍。",
+      "summary": "会席料理が口コミで評判の宿は、上位100軒で言及6,263件、神奈川10軒・群馬8軒が上位。29室以下は言及率8.5%と規模が小さいほど高い。ホテルの朝食付き→2食付きの上乗せは会席上位7道県で中央値約9,000円、前年の大晦日の掲載最安値は12月平日の2.9倍。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "業界トレンド",
+        "会席料理",
+        "生鮮魚介",
+        "2食付きプラン",
+        "群馬県",
+        "年末年始"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194946-auto.png"
+    },
+    {
+      "id": "c30ec8c7e7f54e5a",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "東京で1番高いホテルはザ・ペニンシュラ東京、月平均33.0万円｜掲載料金の上位10軒",
+      "url": "https://hotelbank.jp/lifestyle/tokyo-most-expensive-hotel-listed-price-top10",
+      "published_at": "2026-11-21T05:59:00+09:00",
+      "collected_at": "2026-11-21T12:36:57.233180+09:00",
+      "excerpt": "東京で1番高いホテルは、ホテルバンク編集部の集計ではザ・ペニンシュラ東京。2026年10月の掲載料金の月平均は1室2名で329,946円でした。都内930軒のうち30万円以上は5軒、中央値は約2.8万円。上位10軒の表と価格帯の分布、高い理由、安く泊まれる時期の見方をまとめます。",
+      "summary": "東京で1番高いホテルは、ホテルバンク編集部の集計ではザ・ペニンシュラ東京。2026年10月の掲載料金の月平均は1室2名で329,946円でした。都内930軒のうち30万円以上は5軒、中央値は約2.8万円。上位10軒の表と価格帯の分布、高い理由、安く泊まれる時期の見方をまとめます。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "ライフスタイル",
+        "ザ・ペニンシュラ東京",
+        "パークハイアット東京",
+        "フォーシーズンズホテル丸の内東京",
+        "掲載料金",
+        "高級ホテル"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195106-auto.png"
+    },
     {
       "id": "4e3a26270b3efd8a",
       "source_id": "hotelbank",
