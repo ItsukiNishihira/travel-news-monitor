@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updated_at": "2026-11-21T12:36:57.233180+09:00",
-    "total_articles": 41,
+    "updated_at": "2026-11-22T11:43:02.893478+09:00",
+    "total_articles": 51,
     "new_articles_last_run": 10,
     "ai_summaries_last_run": 0,
     "topic_counts": {
       "miyako_ishigaki": 0,
       "okinawa": 2,
-      "dx": 11
+      "dx": 13
     },
     "topics": [
       {
@@ -37,7 +37,7 @@
         "status": "ok",
         "fetched_count": 10,
         "method": "rss:https://hotelbank.jp/feed/",
-        "checked_at": "2026-11-21T12:36:57.233180+09:00"
+        "checked_at": "2026-11-22T11:43:02.893478+09:00"
       },
       {
         "id": "honichi",
@@ -46,7 +46,7 @@
         "status": "ok",
         "fetched_count": 11,
         "method": "rss:https://honichi.com/feed",
-        "checked_at": "2026-11-21T12:36:57.233180+09:00"
+        "checked_at": "2026-11-22T11:43:02.893478+09:00"
       },
       {
         "id": "travelvoice",
@@ -55,11 +55,252 @@
         "status": "ok",
         "fetched_count": 10,
         "method": "rss:https://www.travelvoice.jp/feed",
-        "checked_at": "2026-11-21T12:36:57.233180+09:00"
+        "checked_at": "2026-11-22T11:43:02.893478+09:00"
       }
     ]
   },
   "articles": [
+    {
+      "id": "20f591f8e0babfce",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "熊本県のホテル新規開業2026は73軒1,666室 — 空港・大津5km圏は客室1.9倍、中央区10月ADR1.03万円",
+      "url": "https://hotelbank.jp/investment/kumamoto-hotel-new-openings-2026-73-properties-1666-rooms-airport-ozu-room-stock",
+      "published_at": "2026-11-22T11:07:00+09:00",
+      "collected_at": "2026-11-22T11:43:02.893478+09:00",
+      "excerpt": "2026年に熊本県で開業した宿泊施設は73軒1,666室で、ビジネスホテル11軒が1,058室を占める。熊本空港・大津5km圏の客室は2022年の1,086室から2,086室へ1.9倍、熊本市中央区の10月推定成約ADRは10,275円（前年同月比+19.5%）。改装・看板替え2軒224室を分けて読む。",
+      "summary": "2026年に熊本県で開業した宿泊施設は73軒1,666室で、ビジネスホテル11軒が1,058室を占める。熊本空港・大津5km圏の客室は2022年の1,086室から2,086室へ1.9倍、熊本市中央区の10月推定成約ADRは10,275円（前年同月比+19.5%）。改装・看板替え2軒224室を分けて読む。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "地価公示",
+        "熊本県",
+        "推定成約ADR",
+        "大津町",
+        "菊陽町"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194236-auto.png"
+    },
+    {
+      "id": "cd41d2c33e279379",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "アンダーズ広島は2027年開業・235室 — 基町1km圏7,604室と広島の上位価格帯の空白",
+      "url": "https://hotelbank.jp/supply-pipeline/andaz-hiroshima-2027-235-rooms-kamihachi-x-motomachi-1km-upper-tier",
+      "published_at": "2026-11-22T10:10:00+09:00",
+      "collected_at": "2026-11-22T11:43:02.893478+09:00",
+      "excerpt": "アンダーズ広島は2027年開業予定で、KAMIHACHI X高層棟21〜31階に235室が入る。中区の推定成約ADRは10月1.22万円（前年比+5.2%）、市内上位帯の掲載価格は約7万円が上端。1km圏の客室ストックと競合計画から上位帯の変化を分析する。",
+      "summary": "アンダーズ広島は2027年開業予定で、KAMIHACHI X高層棟21〜31階に235室が入る。中区の推定成約ADRは10月1.22万円（前年比+5.2%）、市内上位帯の掲載価格は約7万円が上端。1km圏の客室ストックと競合計画から上位帯の変化を分析する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "新規開業・供給",
+        "KAMIHACHI X",
+        "広島市中区",
+        "外資系ホテル",
+        "推定成約ADR",
+        "アンダーズ広島"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-193637-auto.png"
+    },
+    {
+      "id": "79aa4edffb6361de",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "横浜市の区別ホテル投資2026 — 西区2.43万円・港北区+23.9%、関内は2〜3万円帯が手薄",
+      "url": "https://hotelbank.jp/investment/yokohama-ward-hotel-investment-2026-settled-adr-yoy-price-band-hazard",
+      "published_at": "2026-11-22T10:07:00+09:00",
+      "collected_at": "2026-11-22T11:43:02.893478+09:00",
+      "excerpt": "横浜市の区別推定成約ADRは2026年10月に西区¥24,266（+26.4%）、港北区¥13,819（+23.9%）、中区¥13,546（+9.6%）。伸びを業態別・同一施設で分解し、3シナリオと関内¥2〜3万円帯の感度、浸水・液状化リスクから区ごとの投資余地を分析する。",
+      "summary": "横浜市の区別推定成約ADRは2026年10月に西区¥24,266（+26.4%）、港北区¥13,819（+23.9%）、中区¥13,546（+9.6%）。伸びを業態別・同一施設で分解し、3シナリオと関内¥2〜3万円帯の感度、浸水・液状化リスクから区ごとの投資余地を分析する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "西区",
+        "関内",
+        "新横浜",
+        "港北区",
+        "中区"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194617-auto.png"
+    },
+    {
+      "id": "d5ecae0c5fae26ac",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "大浴場の入浴時間、肯定口コミは否定の9.4倍｜24時間入浴の宿など1,054軒・清掃時間帯の置き方",
+      "url": "https://hotelbank.jp/investigation/bath-hours-review-positive-9x-negative-1054-hotels-cleaning-schedule-2026",
+      "published_at": "2026-11-22T10:01:00+09:00",
+      "collected_at": "2026-11-22T11:43:02.893478+09:00",
+      "excerpt": "大浴場の入浴時間に肯定的に触れた口コミは1,054軒・10,461件で、否定（133軒・1,118件）の約9.4倍。肯定は旅館、否定は100室以上のビジネスホテルが中心。上位施設は19時間以上を確保し、清掃は浴場・曜日で分割。ビジネスホテルの推定成約ADRは市区町村の同業態中央値比1.16倍。",
+      "summary": "大浴場の入浴時間に肯定的に触れた口コミは1,054軒・10,461件で、否定（133軒・1,118件）の約9.4倍。肯定は旅館、否定は100室以上のビジネスホテルが中心。上位施設は19時間以上を確保し、清掃は浴場・曜日で分割。ビジネスホテルの推定成約ADRは市区町村の同業態中央値比1.16倍。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "省力化"
+      ],
+      "tags": [
+        "調査",
+        "清掃",
+        "省力化投資",
+        "大浴場",
+        "入浴時間",
+        "温泉旅館"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194432-auto.png"
+    },
+    {
+      "id": "94e4226d0278390d",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "白浜町の宿、12/5土曜は30日前71.0%→16日前73.8% — 12/19は30日前66.8%、冬の白浜をT-30・T-14で逆算",
+      "url": "https://hotelbank.jp/revenue-management/shirahama-december-saturday-booking-curve-t30-t14-202611",
+      "published_at": "2026-11-22T10:01:00+09:00",
+      "collected_at": "2026-11-22T11:43:02.893478+09:00",
+      "excerpt": "和歌山県白浜町の土曜7日分のブッキングカーブを定点比較。12月5日は30日前71.0%→16日前73.8%、12月19日は30日前66.8%（推定OCC・N=74〜75施設）。曜日差・業態差・推定成約ADRから、12月の土曜を30日前・14日前で仕込む逆算カレンダーを整理する。",
+      "summary": "和歌山県白浜町の土曜7日分のブッキングカーブを定点比較。12月5日は30日前71.0%→16日前73.8%、12月19日は30日前66.8%（推定OCC・N=74〜75施設）。曜日差・業態差・推定成約ADRから、12月の土曜を30日前・14日前で仕込む逆算カレンダーを整理する。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "レベニューマネジメント",
+        "レベニュー",
+        "ブッキングカーブ",
+        "revenue-management"
+      ],
+      "tags": [
+        "レベニューマネジメント",
+        "季節・イベント",
+        "12月需要",
+        "白浜町",
+        "和歌山県",
+        "推定成約ADR"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195183-auto.png"
+    },
+    {
+      "id": "7ac64b946c0c186a",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "津駅1km圏のホテル客室数は2017年末から1,172室で変化なし — 100室新設の必要ADRを試算",
+      "url": "https://hotelbank.jp/investment/tsu-station-1km-hotel-rooms-1172-unchanged-100-room-required-adr-2026",
+      "published_at": "2026-11-22T10:00:00+09:00",
+      "collected_at": "2026-11-22T11:43:02.893478+09:00",
+      "excerpt": "津駅周辺1km圏のホテル客室数は当社集計で2017年末から1,172室のまま、稼働中は9軒1,153室。就業者1.4万人・オフィス系28.9%の業務地で、津市10月の推定成約ADRは8,378円（前年比+10.7%）。100室宿泊特化型の必要ADRは建築費次第で8,600〜11,600円。",
+      "summary": "津駅周辺1km圏のホテル客室数は当社集計で2017年末から1,172室のまま、稼働中は9軒1,153室。就業者1.4万人・オフィス系28.9%の業務地で、津市10月の推定成約ADRは8,378円（前年比+10.7%）。100室宿泊特化型の必要ADRは建築費次第で8,600〜11,600円。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "津市",
+        "津駅",
+        "駅前開発",
+        "必要ADR",
+        "宿泊特化型ホテル"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194897-auto.png"
+    },
+    {
+      "id": "9494a3e7efc40492",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "横浜の宿泊キャンペーン、市・県の宿泊割は発表未確認｜1月は中区・西区が12月より1割安い【2026年11月20日確認】",
+      "url": "https://hotelbank.jp/lifestyle/yokohama-shukuhaku-campaign-2026-11-guide",
+      "published_at": "2026-11-22T05:59:00+09:00",
+      "collected_at": "2026-11-22T11:43:02.893478+09:00",
+      "excerpt": "横浜の宿泊キャンペーンを2026年11月20日に確認。市・県の宿泊割は公式発表を確認できず、実施中は周遊型の企画。12月は中区36,500円・西区41,000円に対し港北区20,500円（1室2名税込）で、1月は港側の区が1割以上下がる。",
+      "summary": "横浜の宿泊キャンペーンを2026年11月20日に確認。市・県の宿泊割は公式発表を確認できず、実施中は周遊型の企画。12月は中区36,500円・西区41,000円に対し港北区20,500円（1室2名税込）で、1月は港側の区が1割以上下がる。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "ライフスタイル",
+        "宿泊キャンペーン",
+        "新横浜",
+        "宿泊割引",
+        "年末年始",
+        "ふるさと納税"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195243-auto.png"
+    },
+    {
+      "id": "8b39df5b7b8a6e7f",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "スーパーホテルとは？朝食は無料が基本（一部店舗は有料）｜口コミ4.19点・特徴と料金の目安【2026年11月】",
+      "url": "https://hotelbank.jp/lifestyle/super-hotel-breakfast-features-price-guide-2026-11",
+      "published_at": "2026-11-22T04:00:00+09:00",
+      "collected_at": "2026-11-22T11:43:02.893478+09:00",
+      "excerpt": "スーパーホテルは無料の健康朝食・天然温泉・ウェルカムバー・選べる枕8種類が特徴。朝食は無料が基本で、公式は一部有料店舗もあると案内（2026年11月20日確認）。口コミ32.7万件の総合4.19点・朝食4.15点、主要6店舗の料金の目安、1泊500円相当が貯まる会員制度まで整理した。",
+      "summary": "スーパーホテルは無料の健康朝食・天然温泉・ウェルカムバー・選べる枕8種類が特徴。朝食は無料が基本で、公式は一部有料店舗もあると案内（2026年11月20日確認）。口コミ32.7万件の総合4.19点・朝食4.15点、主要6店舗の料金の目安、1泊500円相当が貯まる会員制度まで整理した。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "ライフスタイル",
+        "会員制度",
+        "無料朝食",
+        "天然温泉",
+        "大浴場",
+        "スーパーホテル"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195208-auto.png"
+    },
+    {
+      "id": "a4adee3fb480c02a",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "JCSIホテル顧客満足度2026｜帝国ホテル81.6点で18年連続1位、ビジネスは3指標で1位が分かれる",
+      "url": "https://hotelbank.jp/industry-trends/jcsi-2026-hotel-customer-satisfaction-imperial-hotel-18-years-business-hotel-three-indicators",
+      "published_at": "2026-11-21T21:00:00+09:00",
+      "collected_at": "2026-11-22T11:43:02.893478+09:00",
+      "excerpt": "2026年度JCSI（日本版顧客満足度指数）第4回調査のホテル部門は、シティホテルで帝国ホテルが顧客満足81.6点・18年連続1位。ビジネスホテルは顧客満足80.7点のドーミーイン、推奨意向75.2点のダイワロイネットホテルと指標で1位が分かれた。公表値と口コミの語られ方から、満足・推奨・感動に効く接点を整理する。",
+      "summary": "2026年度JCSI（日本版顧客満足度指数）第4回調査のホテル部門は、シティホテルで帝国ホテルが顧客満足81.6点・18年連続1位。ビジネスホテルは顧客満足80.7点のドーミーイン、推奨意向75.2点のダイワロイネットホテルと指標で1位が分かれた。公表値と口コミの語られ方から、満足・推奨・感動に効く接点を整理する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "業界トレンド",
+        "JCSI",
+        "日本生産性本部",
+        "ダイワロイネットホテル",
+        "帝国ホテル",
+        "顧客満足度"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194103-auto.png"
+    },
+    {
+      "id": "8cec0c21547c351f",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "食事会場の混雑口コミ1.2万件、リゾートが6割｜席数増・時間帯案内の対策費は1室1泊14〜27円",
+      "url": "https://hotelbank.jp/investigation/dining-venue-crowding-reviews-12k-resort-60pct-countermeasure-cost-per-room-night-2026",
+      "published_at": "2026-11-21T20:51:00+09:00",
+      "collected_at": "2026-11-22T11:43:02.893478+09:00",
+      "excerpt": "宿泊者口コミで食事会場の混雑に触れた声は、言及上位100軒で12,161件、6割がリゾートホテルに集中した。席数増・時間帯案内・テイクアウト朝食・ライブキッチン化の対策費を1室1泊14〜27円と試算し、朝食付き単価差3,040円と比べて回収の見通しを分析する。",
+      "summary": "宿泊者口コミで食事会場の混雑に触れた声は、言及上位100軒で12,161件、6割がリゾートホテルに集中した。席数増・時間帯案内・テイクアウト朝食・ライブキッチン化の対策費を1室1泊14〜27円と試算し、朝食付き単価差3,040円と比べて回収の見通しを分析する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "調査",
+        "ライブキッチン",
+        "朝食会場",
+        "混雑対策",
+        "朝食付きプラン",
+        "年末年始"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194414-auto.png"
+    },
     {
       "id": "afa959ee53fd3fc8",
       "source_id": "hotelbank",
