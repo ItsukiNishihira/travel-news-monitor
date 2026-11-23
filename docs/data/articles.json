@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updated_at": "2026-11-22T11:43:02.893478+09:00",
-    "total_articles": 51,
+    "updated_at": "2026-11-23T12:19:14.984381+09:00",
+    "total_articles": 61,
     "new_articles_last_run": 10,
     "ai_summaries_last_run": 0,
     "topic_counts": {
       "miyako_ishigaki": 0,
       "okinawa": 2,
-      "dx": 13
+      "dx": 16
     },
     "topics": [
       {
@@ -37,7 +37,7 @@
         "status": "ok",
         "fetched_count": 10,
         "method": "rss:https://hotelbank.jp/feed/",
-        "checked_at": "2026-11-22T11:43:02.893478+09:00"
+        "checked_at": "2026-11-23T12:19:14.984381+09:00"
       },
       {
         "id": "honichi",
@@ -46,7 +46,7 @@
         "status": "ok",
         "fetched_count": 11,
         "method": "rss:https://honichi.com/feed",
-        "checked_at": "2026-11-22T11:43:02.893478+09:00"
+        "checked_at": "2026-11-23T12:19:14.984381+09:00"
       },
       {
         "id": "travelvoice",
@@ -55,11 +55,262 @@
         "status": "ok",
         "fetched_count": 10,
         "method": "rss:https://www.travelvoice.jp/feed",
-        "checked_at": "2026-11-22T11:43:02.893478+09:00"
+        "checked_at": "2026-11-23T12:19:14.984381+09:00"
       }
     ]
   },
   "articles": [
+    {
+      "id": "41e6580fb0795ce5",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "ホテルのレンタサイクル導入費用は1室1泊70円 — 自転車が口コミで語られる宿100軒、広島・愛媛に20軒",
+      "url": "https://hotelbank.jp/investment/hotel-rental-bicycle-reviews-100-hotels-ebike-cost-per-room-night-2026",
+      "published_at": "2026-11-23T11:06:00+09:00",
+      "collected_at": "2026-11-23T12:19:14.984381+09:00",
+      "excerpt": "自転車の貸出・保管が口コミで肯定的に語られる宿上位100軒を集計。肯定的な言及は4,605件、広島・愛媛に20軒が集まる。電動アシスト車10台を30室の宿に導入する費用を1室1泊約70円と試算し、台数・稼働率・使用期間の感度を分析する。",
+      "summary": "自転車の貸出・保管が口コミで肯定的に語られる宿上位100軒を集計。肯定的な言及は4,605件、広島・愛媛に20軒が集まる。電動アシスト車10台を30室の宿に導入する費用を1室1泊約70円と試算し、台数・稼働率・使用期間の感度を分析する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "レンタサイクル",
+        "電動アシスト自転車",
+        "富士河口湖町",
+        "尾道市",
+        "設備投資"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194382-auto.png"
+    },
+    {
+      "id": "20e1ce58dd379f63",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "豊岡市の松葉ガニ期、12月5日土曜は推定OCC 91.7% — 12月中旬の平日の谷を宿泊30日前・14日前にどう埋めるか",
+      "url": "https://hotelbank.jp/revenue-management/toyooka-matsuba-crab-december-booking-curve-2026",
+      "published_at": "2026-11-23T10:25:00+09:00",
+      "collected_at": "2026-11-23T12:19:14.984381+09:00",
+      "excerpt": "兵庫県豊岡市（全カテゴリ）のブッキングカーブを2026年11月21日観測時点で分析。12月5日土曜は宿泊14日前で推定OCC 91.7%、一方で12月中旬の月〜木は30日前で66〜68%と11月より約11ポイント低い。カニプランの在庫配分と連泊・平日誘導の打ち手を時間軸で整理する。",
+      "summary": "兵庫県豊岡市（全カテゴリ）のブッキングカーブを2026年11月21日観測時点で分析。12月5日土曜は宿泊14日前で推定OCC 91.7%、一方で12月中旬の月〜木は30日前で66〜68%と11月より約11ポイント低い。カニプランの在庫配分と連泊・平日誘導の打ち手を時間軸で整理する。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "レベニューマネジメント",
+        "レベニュー",
+        "ブッキングカーブ",
+        "revenue-management"
+      ],
+      "tags": [
+        "レベニューマネジメント",
+        "季節・イベント",
+        "豊岡市",
+        "カニ解禁",
+        "松葉がに",
+        "推定成約ADR"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195430-auto.png"
+    },
+    {
+      "id": "14682258c9618d08",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "山梨県の外国語口コミ24.3%・英語16.0%｜眺望は英語35.4%で日本語の2.7倍、河口湖・笛吹の冬単価",
+      "url": "https://hotelbank.jp/inbound/yamanashi-review-language-share-english-room-view-fujikawaguchiko-fuefuki-winter-adr-2026",
+      "published_at": "2026-11-23T10:01:00+09:00",
+      "collected_at": "2026-11-23T12:19:14.984381+09:00",
+      "excerpt": "山梨県の宿泊者口コミ上位9言語163,365件のうち外国語は24.3%。英語では客室からの眺望が35.4%で首位、日本語12.9%の2.7倍。富士河口湖町の推定成約ADRは2025年12月¥19,500で前年同月比+33.8%、1〜2月は谷。言語別の評価軸と冬の単価を読み解く。",
+      "summary": "山梨県の宿泊者口コミ上位9言語163,365件のうち外国語は24.3%。英語では客室からの眺望が35.4%で首位、日本語12.9%の2.7倍。富士河口湖町の推定成約ADRは2025年12月¥19,500で前年同月比+33.8%、1〜2月は谷。言語別の評価軸と冬の単価を読み解く。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "インバウンド",
+        "富士河口湖町",
+        "笛吹市",
+        "推定成約ADR",
+        "多言語対応",
+        "富士山"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194658-auto.png"
+    },
+    {
+      "id": "f865f1222c7b713f",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "大阪の10月実績はシティ92.3%・ビジネス89.1% — 12月土曜のビジネスは22日前74.1%まで追い上げ",
+      "url": "https://hotelbank.jp/revenue-management/osaka-city-business-december-saturday-booking-curve-2026",
+      "published_at": "2026-11-23T10:00:00+09:00",
+      "collected_at": "2026-11-23T12:19:14.984381+09:00",
+      "excerpt": "大阪府のシティ・ビジネスホテルの2026年10月推定OCCと曜日差を整理し、12/12・12/19土曜の予約進捗を45日前・30日前・直前の枠組みで分析。価格据え置き、ミニマムステイ、連泊訴求の判断軸を示す。",
+      "summary": "大阪府のシティ・ビジネスホテルの2026年10月推定OCCと曜日差を整理し、12/12・12/19土曜の予約進捗を45日前・30日前・直前の枠組みで分析。価格据え置き、ミニマムステイ、連泊訴求の判断軸を示す。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "レベニューマネジメント",
+        "レベニュー",
+        "revenue-management"
+      ],
+      "tags": [
+        "エリア・施設分析",
+        "レベニューマネジメント",
+        "12月需要",
+        "推定成約ADR",
+        "連泊",
+        "シティホテル"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195292-auto.png"
+    },
+    {
+      "id": "af2437be9c8bae25",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "ひろしま男子駅伝2027は1月24日、前回の前夜は翌週土曜比+1.8% — 広島市中区1月ADR7,593円の谷",
+      "url": "https://hotelbank.jp/seasonal-events/hiroshima-mens-ekiden-2027-pre-night-hotel-price-january-adr",
+      "published_at": "2026-11-23T10:00:00+09:00",
+      "collected_at": "2026-11-23T12:19:14.984381+09:00",
+      "excerpt": "第32回全国都道府県対抗男子駅伝は2027年1月24日（日）12時30分スタート。前回大会前夜1月17日（土）の平和記念公園2km圏の掲載価格は中央値約15,400円で翌週土曜比+1.8%（61施設）。中区の1月推定成約ADRは7,593円で年間の谷。金・土2泊の値付けを読む。",
+      "summary": "第32回全国都道府県対抗男子駅伝は2027年1月24日（日）12時30分スタート。前回大会前夜1月17日（土）の平和記念公園2km圏の掲載価格は中央値約15,400円で翌週土曜比+1.8%（61施設）。中区の1月推定成約ADRは7,593円で年間の谷。金・土2泊の値付けを読む。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "季節・イベント",
+        "ひろしま男子駅伝",
+        "全国都道府県対抗男子駅伝",
+        "平和記念公園",
+        "駅伝",
+        "推定成約ADR"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194345-auto.png"
+    },
+    {
+      "id": "31b20c1311d154db",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "埼玉県のホテル新規開業2026は7軒1,351室、新築は4軒928室 — さいたま新都心389室・熊谷245室・所沢245室",
+      "url": "https://hotelbank.jp/investment/saitama-new-hotel-openings-2026-supply-pipeline",
+      "published_at": "2026-11-23T10:00:00+09:00",
+      "collected_at": "2026-11-23T12:19:14.984381+09:00",
+      "excerpt": "埼玉県で2026年に開業したホテルは7軒1,351室、純増の新築は4軒928室で3軒はリブランド。所沢駅1km圏は客室2.4倍、県内ビジネスホテルの推定OCCは10月に90.7%。関東7都県比較と200室新築の3シナリオ試算で吸収余地を分析する。",
+      "summary": "埼玉県で2026年に開業したホテルは7軒1,351室、純増の新築は4軒928室で3軒はリブランド。所沢駅1km圏は客室2.4倍、県内ビジネスホテルの推定OCCは10月に90.7%。関東7都県比較と200室新築の3シナリオ試算で吸収余地を分析する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "所沢",
+        "熊谷",
+        "さいたま新都心",
+        "埼玉県",
+        "東横INN"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194902-auto.png"
+    },
+    {
+      "id": "36cf02a08a1df53a",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "宮崎県の宿泊税は宮崎市で1人1泊200円｜2026年7月開始、2名で宿代の約1.7%・入湯税との合計【11月確認】",
+      "url": "https://hotelbank.jp/lifestyle/miyazaki-accommodation-tax-200yen-2026",
+      "published_at": "2026-11-23T04:00:00+09:00",
+      "collected_at": "2026-11-23T12:19:14.984381+09:00",
+      "excerpt": "宮崎県で宿泊税がかかるのは宮崎市で、1人1泊200円の定額（2026年7月1日開始）。2名1泊400円は12月の掲載価格23,317円の約1.7%。課税対象・免除・県や他市町村の状況、温泉宿の入湯税との合計を2026年11月21日時点で整理。",
+      "summary": "宮崎県で宿泊税がかかるのは宮崎市で、1人1泊200円の定額（2026年7月1日開始）。2名1泊400円は12月の掲載価格23,317円の約1.7%。課税対象・免除・県や他市町村の状況、温泉宿の入湯税との合計を2026年11月21日時点で整理。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "ライフスタイル",
+        "2026年導入",
+        "宮崎旅行",
+        "入湯税",
+        "宮崎県",
+        "温泉"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195357-auto.png"
+    },
+    {
+      "id": "cfcf3fc83966cf40",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "福岡のビジネスホテル、10月は水曜96.8%・日曜86.9% — 日曜の谷は宿泊22日前から開く",
+      "url": "https://hotelbank.jp/revenue-management/rm-fukuoka-business-weekday-occ-202610-sunday-gap-lt22",
+      "published_at": "2026-11-22T21:00:00+09:00",
+      "collected_at": "2026-11-23T12:19:14.984381+09:00",
+      "excerpt": "福岡県ビジネスホテルの2026年10月の推定OCC（OTA掲載在庫ベース）を曜日別に集計。連休を除く平常週は水曜96.8%に対し日曜86.9%で差は9.9ポイント。ブッキングカーブでは日曜が45日前に先行し、22日前に水曜へ逆転されていた。日曜泊を売る時期を整理する。",
+      "summary": "福岡県ビジネスホテルの2026年10月の推定OCC（OTA掲載在庫ベース）を曜日別に集計。連休を除く平常週は水曜96.8%に対し日曜86.9%で差は9.9ポイント。ブッキングカーブでは日曜が45日前に先行し、22日前に水曜へ逆転されていた。日曜泊を売る時期を整理する。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "レベニューマネジメント",
+        "レベニュー",
+        "ブッキングカーブ",
+        "revenue-management",
+        "OTA"
+      ],
+      "tags": [
+        "レベニューマネジメント",
+        "日曜泊",
+        "曜日別稼働",
+        "推定OCC",
+        "ブッキングカーブ",
+        "福岡県"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195216-auto.png"
+    },
+    {
+      "id": "f00ede769122a9eb",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "箱根駅伝2027の宿泊｜芦ノ湖2km圏は469室、前回1月2日泊の掲載価格は平常の2.0倍",
+      "url": "https://hotelbank.jp/seasonal-events/hakone-ekiden-2027-hotel-room-stock-ashinoko-otemachi-new-year-price",
+      "published_at": "2026-11-22T20:58:00+09:00",
+      "collected_at": "2026-11-23T12:19:14.984381+09:00",
+      "excerpt": "箱根駅伝2027（1月2日往路・3日復路）の宿泊を地点別に見ると、往路ゴールの芦ノ湖周辺2km圏で稼働中の客室は469室、スタートの大手町2km圏は31,650室。前回の1月2日泊は箱根町の掲載価格が平常日の2.0倍だったが、大晦日も2.1倍で、駅伝の上乗せ分は切り分けられない。",
+      "summary": "箱根駅伝2027（1月2日往路・3日復路）の宿泊を地点別に見ると、往路ゴールの芦ノ湖周辺2km圏で稼働中の客室は469室、スタートの大手町2km圏は31,650室。前回の1月2日泊は箱根町の掲載価格が平常日の2.0倍だったが、大晦日も2.1倍で、駅伝の上乗せ分は切り分けられない。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "季節・イベント",
+        "小田原",
+        "芦ノ湖",
+        "大手町",
+        "箱根駅伝",
+        "スポーツイベント"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194651-auto.png"
+    },
+    {
+      "id": "3c5bc9ced6e283e7",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "静岡県ホテル投資マップ2026｜熱海2.27万円・伊東1.92万円・葵区8,486円、1.5〜2万円帯は客室6.5%",
+      "url": "https://hotelbank.jp/investment/shizuoka-hotel-investment-map-2026-atami-ito-izu-adr-price-band-room-stock",
+      "published_at": "2026-11-22T20:54:00+09:00",
+      "collected_at": "2026-11-23T12:19:14.984381+09:00",
+      "excerpt": "静岡県のホテル投資を市区町別に整理。2026年9月の推定成約ADRは熱海市2.27万円・伊東市1.92万円、静岡市葵区8,486円・浜松市中区7,989円。伊豆市・河津町は前年割れ。5圏の客室ストックと価格帯を示し、新築100室の必要ADR1.17〜1.29万円を試算する。",
+      "summary": "静岡県のホテル投資を市区町別に整理。2026年9月の推定成約ADRは熱海市2.27万円・伊東市1.92万円、静岡市葵区8,486円・浜松市中区7,989円。伊豆市・河津町は前年割れ。5圏の客室ストックと価格帯を示し、新築100室の必要ADR1.17〜1.29万円を試算する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "浜松市",
+        "静岡市",
+        "伊東市",
+        "伊豆",
+        "ホテル投資"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194218-auto.png"
+    },
     {
       "id": "20f591f8e0babfce",
       "source_id": "hotelbank",
