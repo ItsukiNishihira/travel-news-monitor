@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updated_at": "2026-11-25T14:08:08.255850+09:00",
-    "total_articles": 104,
-    "new_articles_last_run": 23,
+    "updated_at": "2026-11-26T13:34:08.848569+09:00",
+    "total_articles": 123,
+    "new_articles_last_run": 19,
     "ai_summaries_last_run": 0,
     "topic_counts": {
       "miyako_ishigaki": 0,
-      "okinawa": 3,
-      "dx": 33
+      "okinawa": 5,
+      "dx": 38
     },
     "topics": [
       {
@@ -37,7 +37,7 @@
         "status": "ok",
         "fetched_count": 10,
         "method": "rss:https://hotelbank.jp/feed/",
-        "checked_at": "2026-11-25T14:08:08.255850+09:00"
+        "checked_at": "2026-11-26T13:34:08.848569+09:00"
       },
       {
         "id": "honichi",
@@ -46,7 +46,7 @@
         "status": "ok",
         "fetched_count": 11,
         "method": "rss:https://honichi.com/feed",
-        "checked_at": "2026-11-25T14:08:08.255850+09:00"
+        "checked_at": "2026-11-26T13:34:08.848569+09:00"
       },
       {
         "id": "travelvoice",
@@ -55,11 +55,421 @@
         "status": "ok",
         "fetched_count": 10,
         "method": "rss:https://www.travelvoice.jp/feed",
-        "checked_at": "2026-11-25T14:08:08.255850+09:00"
+        "checked_at": "2026-11-26T13:34:08.848569+09:00"
       }
     ]
   },
   "articles": [
+    {
+      "id": "1079ff923c940f28",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "リーガロイヤルホテルズの開業予定6施設811室｜2028年6月〜2029年5月、奈良99室追加・有馬は8月へ",
+      "url": "https://hotelbank.jp/investment/rihga-royal-hotels-pipeline-2028-2029-6-hotels-811-rooms-adr-required",
+      "published_at": "2026-11-26T12:12:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "リーガロイヤルホテルズの2028年以降の開業予定は6施設811室。2026年11月13日に奈良市99室（2029年5月末頃）を追加し、神戸有馬93室は2028年8月に変更。広島・千歳・今帰仁・箱根強羅・有馬の周辺客室への増分と所在市区町村の推定成約ADR、必要ADRの試算を並べた。",
+      "summary": "リーガロイヤルホテルズの2028年以降の開業予定は6施設811室。2026年11月13日に奈良市99室（2029年5月末頃）を追加し、神戸有馬93室は2028年8月に変更。広島・千歳・今帰仁・箱根強羅・有馬の周辺客室への増分と所在市区町村の推定成約ADR、必要ADRの試算を並べた。",
+      "summary_type": "excerpt",
+      "topics": [
+        "okinawa"
+      ],
+      "matched_keywords": [
+        "今帰仁"
+      ],
+      "tags": [
+        "投資・開発",
+        "リーガグラン",
+        "今帰仁",
+        "箱根強羅",
+        "千歳",
+        "リーガロイヤルホテルズ"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194887-auto.png"
+    },
+    {
+      "id": "11f8323da3dcdd80",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "ホテル送迎バスの口コミ上位100軒、言及の56%は空港ホテル｜運行費は1室1泊560〜970円",
+      "url": "https://hotelbank.jp/investment/hotel-shuttle-bus-review-top100-airport-cost-per-room-2026",
+      "published_at": "2026-11-26T11:10:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "ホテルの送迎バスが口コミで評価される上位100軒は千葉34軒・東京17軒・大阪13軒。言及4.7万件の56%を空港立地が占め、言及率は約3割。推定成約ADRとの比較、マイクロバス1台の運行費の1室1泊換算（560〜970円）、年末年始の空港ホテル価格を分析。",
+      "summary": "ホテルの送迎バスが口コミで評価される上位100軒は千葉34軒・東京17軒・大阪13軒。言及4.7万件の56%を空港立地が占め、言及率は約3割。推定成約ADRとの比較、マイクロバス1台の運行費の1室1泊換算（560〜970円）、年末年始の空港ホテル価格を分析。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "送迎バス",
+        "運行費",
+        "推定成約ADR",
+        "成田空港",
+        "年末年始"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194894-auto.png"
+    },
+    {
+      "id": "a47b887b7fb33e5e",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "ウインターカップ2026のホテル需要｜東京体育館2km圏2.2万室、調布会場3km圏は683室",
+      "url": "https://hotelbank.jp/seasonal-events/wintercup-2026-hotel-demand-tokyo-gymnasium-keio-arena-chofu-room-stock",
+      "published_at": "2026-11-26T10:11:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "ウインターカップ2026（12月23〜29日）の会場周辺ホテルは、東京体育館2km圏が126軒・21,773室、京王アリーナTOKYO3km圏が11軒・683室。120チームの必要客室を960〜1,440室と試算し、前年12月の渋谷区・新宿区・調布市のADRと12月23日泊の予約進捗を整理する。",
+      "summary": "ウインターカップ2026（12月23〜29日）の会場周辺ホテルは、東京体育館2km圏が126軒・21,773室、京王アリーナTOKYO3km圏が11軒・683室。120チームの必要客室を960〜1,440室と試算し、前年12月の渋谷区・新宿区・調布市のADRと12月23日泊の予約進捗を整理する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "季節・イベント",
+        "ウインターカップ",
+        "京王アリーナTOKYO",
+        "調布市",
+        "東京体育館",
+        "団体宿泊"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195189-auto.png"
+    },
+    {
+      "id": "f1c8cc956daf2292",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "熱海の閑散期は6月、単価は12月の0.64倍 — 温泉地11市町の谷と山を比較【2026】",
+      "url": "https://hotelbank.jp/area-analysis/atami-off-season-june-onsen-11-towns-adr-trough-peak-2026",
+      "published_at": "2026-11-26T10:03:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "熱海の閑散期は6月で、推定成約ADRは¥19,400と12月（¥30,300）の0.64倍。豊岡・下呂・別府・草津・箱根など温泉地11市町の12か月の谷と山を比べると、10市町で前年より振れ幅が拡大。6月平日の推定稼働率から単価型・稼働型を見分け、閑散月の打ち手を整理する。",
+      "summary": "熱海の閑散期は6月で、推定成約ADRは¥19,400と12月（¥30,300）の0.64倍。豊岡・下呂・別府・草津・箱根など温泉地11市町の12か月の谷と山を比べると、10市町で前年より振れ幅が拡大。6月平日の推定稼働率から単価型・稼働型を見分け、閑散月の打ち手を整理する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "エリア・施設分析",
+        "豊岡市",
+        "閑散期",
+        "下呂市",
+        "推定成約ADR",
+        "温泉地"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194872-auto.png"
+    },
+    {
+      "id": "41d59dba81b9c745",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "箱根町の宿、12/19土曜は26日前83.9% — 12/5は同時点90.7%、12月の週末をT-30・T-14で逆算する",
+      "url": "https://hotelbank.jp/revenue-management/hakone-december-weekend-booking-curve-t30-t14",
+      "published_at": "2026-11-26T10:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "箱根町の宿泊施設（全業態）の12月ブッキングカーブを11月23日観測時点で分析。12/19土曜は26日前で推定OCC83.9%、12/5土曜は同時点90.7%。日曜泊との差や年末の進捗、推定成約ADRの確定値から、T-30・T-14の逆算カレンダーとアクションプランを示す。",
+      "summary": "箱根町の宿泊施設（全業態）の12月ブッキングカーブを11月23日観測時点で分析。12/19土曜は26日前で推定OCC83.9%、12/5土曜は同時点90.7%。日曜泊との差や年末の進捗、推定成約ADRの確定値から、T-30・T-14の逆算カレンダーとアクションプランを示す。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "レベニューマネジメント",
+        "レベニュー",
+        "ブッキングカーブ",
+        "revenue-management"
+      ],
+      "tags": [
+        "レベニューマネジメント",
+        "季節・イベント",
+        "日曜泊",
+        "推定成約ADR",
+        "年末年始",
+        "推定OCC"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195736-auto.png"
+    },
+    {
+      "id": "65876d59e23a53ab",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "八王子駅南口にスマイルホテル114室が新築開業 — 駅1km圏は14軒1,759室、市ADRは前年比+9.5%",
+      "url": "https://hotelbank.jp/supply-pipeline/hachioji-south-exit-smile-hotel-114-rooms-opening-1km-stock-adr-2026",
+      "published_at": "2026-11-26T10:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "スマイルホテル八王子南口駅前（114室）が2026年10月16日に開業。八王子駅1km圏の稼働ストックは13軒1,645室から14軒1,759室へ6.9%増えた。八王子市の10月ADRは8,600円で前年同月比+9.5%、新築は開業月9,700円。従業者4.8万人・学生約9万人と高尾山の需要から供給の位置づけを読む。",
+      "summary": "スマイルホテル八王子南口駅前（114室）が2026年10月16日に開業。八王子駅1km圏の稼働ストックは13軒1,645室から14軒1,759室へ6.9%増えた。八王子市の10月ADRは8,600円で前年同月比+9.5%、新築は開業月9,700円。従業者4.8万人・学生約9万人と高尾山の需要から供給の位置づけを読む。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "新規開業・供給",
+        "スマイルホテル",
+        "八王子市",
+        "八王子駅",
+        "多摩地域",
+        "客室供給"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195090-auto.png"
+    },
+    {
+      "id": "469b9ef1a7cc4fae",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "【取材】五島列島・福江商店街に誕生した「五島余白」、宿と茶房で地域活性化へ",
+      "url": "https://hotelbank.jp/shuzai/nagasaki-gotoyohaku-2609open",
+      "published_at": "2026-11-26T09:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "株式会社リージョン・クエストは2026年9月、長崎県五島市の福江商店街に、1964年築の古民家をリノベーションした複合施設「五島余白」を開設した。1日1組限定の一棟貸し宿「五島余白宿STAY」と、テイクアウトを中心とした茶房「五島余白茶TEA」で構成される。宿泊施設は4つの寝室を備えた4LDKで、最大10名が宿泊可能。家族や友人同士のグループ旅行、企業研修など、幅広い宿泊需要を想定してい […]",
+      "summary": "株式会社リージョン・クエストは2026年9月、長崎県五島市の福江商店街に、1964年築の古民家をリノベーションした複合施設「五島余白」を開設した。1日1組限定の一棟貸し宿「五島余白宿STAY」と、テイクアウトを中心とした茶房「五島余白茶TEA」で構成される。宿泊施設は4つの寝室を備えた4LDKで、最大10名が宿泊可能。家族や友人同士のグループ旅行、企業研修など、幅広い宿泊需要を想定してい […]",
+      "summary_type": "excerpt",
+      "topics": [
+        "okinawa"
+      ],
+      "matched_keywords": [
+        "沖縄"
+      ],
+      "tags": [
+        "取材",
+        "九州 / 沖縄"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/main-651.jpg"
+    },
+    {
+      "id": "97bd6bc2c7200f0d",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "スペイン開催の国際観光見本市「FITUR（フィトゥール）2027」、AIや持続可能な観光に焦点、展示規模を拡大して1月20～24日開催（PR）",
+      "url": "https://www.travelvoice.jp/20261126-160884",
+      "published_at": "2026-11-26T09:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "（PR）スペイン・マドリードで開催される国際観光見本市「FITUR（フィトゥール）2027」。2027年1月20～24日の5日間、11ホールに規模を拡大し、世界各国の観光関連企業が集結。AIやテクノロジー、持続可能性など観光産業の最新動向を紹介。",
+      "summary": "（PR）スペイン・マドリードで開催される国際観光見本市「FITUR（フィトゥール）2027」。2027年1月20～24日の5日間、11ホールに規模を拡大し、世界各国の観光関連企業が集結。AIやテクノロジー、持続可能性など観光産業の最新動向を紹介。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "テクノロジー",
+        "AI"
+      ],
+      "tags": [
+        "MICE",
+        "PR",
+        "イベント"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "5ef3efc015ad5661",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "ナビタイム、添乗員のスマホに行程表・指示書を共有する新機能、旅行会社は現在地を把握、大型バスの迂回ルート検索も",
+      "url": "https://www.travelvoice.jp/20261126-160927",
+      "published_at": "2026-11-26T09:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "ナビタイムジャパンは、大型観光バス対応の行程表作成ツール「行程表クラウドby NAVITIME」で新機能「添乗員サポート」の提供を開始。最新の行程表や添乗員指示書を添乗員のスマートフォン・タブレット端末へ共有。",
+      "summary": "ナビタイムジャパンは、大型観光バス対応の行程表作成ツール「行程表クラウドby NAVITIME」で新機能「添乗員サポート」の提供を開始。最新の行程表や添乗員指示書を添乗員のスマートフォン・タブレット端末へ共有。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "クラウド",
+        "デジタル",
+        "テクノロジー"
+      ],
+      "tags": [
+        "デジタル・テクノロジー",
+        "ナビタイム",
+        "国内旅行",
+        "旅行会社"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "51bb748eb594a4eb",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "富良野・美瑛エリア、クチコミ分析で観光サービス改善へ、混雑状況や駐車場など旅行者の声を把握、トラスト・ユーを導入",
+      "url": "https://www.travelvoice.jp/20261126-160925",
+      "published_at": "2026-11-26T09:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "富良野美瑛広域観光推進協議会は、旅行者の満足度向上や地域全体のサービス改善を目的として、TrustYou（トラスト・ユー）の口コミ分析・管理プラットフォームを導入。",
+      "summary": "富良野美瑛広域観光推進協議会は、旅行者の満足度向上や地域全体のサービス改善を目的として、TrustYou（トラスト・ユー）の口コミ分析・管理プラットフォームを導入。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "口コミ分析",
+        "クチコミ分析"
+      ],
+      "tags": [
+        "DMO",
+        "クチコミ",
+        "トラストユー"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "4ee5bb22e3328a5d",
+      "source_id": "honichi",
+      "source_name": "訪日ラボ",
+      "title": "日本、アルゼンチン・キプロスと航空当局間枠組みを締結実運航やコードシェアでネットワークの充実に期待（国土交通省）",
+      "url": "https://honichi.com/news/2026/11/26/mlit-argentina-cyprus-aviation-framework",
+      "published_at": "2026-11-26T09:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "国土交通省は11月17日、日本とアルゼンチン、および日本とキプロスの間でそれぞれ航空当局間枠組みを締結したと発表しました。今回の枠組み設定により、両国と日本を結ぶ航空ネットワークの充実や、航空サービスの利便性向上が期待されます。",
+      "summary": "国土交通省は11月17日、日本とアルゼンチン、および日本とキプロスの間でそれぞれ航空当局間枠組みを締結したと発表しました。今回の枠組み設定により、両国と日本を結ぶ航空ネットワークの充実や、航空サービスの利便性向上が期待されます。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [],
+      "image_url": ""
+    },
+    {
+      "id": "bebc1e8bdd1d5b1d",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "韓国ソウル市、ウェルネス観光100選を発表、「休・味・粋」の3テーマで都市型体験を紹介、海外発信を強化",
+      "url": "https://www.travelvoice.jp/20261126-160928",
+      "published_at": "2026-11-26T09:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "韓国ソウル市は、「ソウル・ウェルネス観光100選（100 SEOUL WELLNESS TRAVEL 2026）」を発表。英語版公式サイトではテーマ別の検索と地図で各所を探すことが可能。",
+      "summary": "韓国ソウル市は、「ソウル・ウェルネス観光100選（100 SEOUL WELLNESS TRAVEL 2026）」を発表。英語版公式サイトではテーマ別の検索と地図で各所を探すことが可能。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "ウェルネス",
+        "海外旅行",
+        "自治体"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "1df3dd1638661915",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "調査レポート「ウェルネスツーリズム2027」を発表、急成長する市場規模や世界の最新事例・トレンドを網羅（ダウンロード無料） ―トラベルボイスREPORT",
+      "url": "https://www.travelvoice.jp/20261125-160857",
+      "published_at": "2026-11-26T09:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "トラベルボイスが調査レポート「ウェルネスツーリズム2027」を発表。1兆ドルに迫る市場規模や高単価旅行者の動向、世界の最新事例やトレンドを網羅した（無料ダウンロード可）。",
+      "summary": "トラベルボイスが調査レポート「ウェルネスツーリズム2027」を発表。1兆ドルに迫る市場規模や高単価旅行者の動向、世界の最新事例やトレンドを網羅した（無料ダウンロード可）。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "ウェルネス",
+        "トラベルボイスREPORT",
+        "調査"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "bfe50f0d411c4503",
+      "source_id": "honichi",
+      "source_name": "訪日ラボ",
+      "title": "渋谷の観光支援施設shibuya-sanで多言語AI観光案内の実証開始WhatsAppで24時間・50言語に対応（東急不動産・ikura）",
+      "url": "https://honichi.com/news/2026/11/26/shibuya-san-ai-tourism-whatsapp",
+      "published_at": "2026-11-26T08:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "トラベルテック企業のikuraは11月11日、東急不動産と連携し、渋谷フクラス1階の観光支援施設「shibuya-san tourist information & art center（以下、shibuya-san）」において、多言語AI観光案内サービス「Chat with shibuya-san」の実証運用を11月中旬より開始すると発表しました。本取り組みは、一般社団法人渋谷国際都市共創機構の2026年度「会員プロジェクト支援費」の採択プロジェクトとして実施されるものです。実証...",
+      "summary": "トラベルテック企業のikuraは11月11日、東急不動産と連携し、渋谷フクラス1階の観光支援施設「shibuya-san tourist information & art center（以下、shibuya-san）」において、多言語AI観光案内サービス「Chat with shibuya-san」の実証運用を11月中旬より開始すると発表しました。本取り組みは、一般社団法人渋谷国際都市共創機構の2026年度「会員プロジェクト支援費」の採択プロジェクトとして実施されるものです。実証...",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "AI"
+      ],
+      "tags": [],
+      "image_url": ""
+    },
+    {
+      "id": "4ef0d26107e023bf",
+      "source_id": "honichi",
+      "source_name": "訪日ラボ",
+      "title": "訪日客の観光ルートに変化南関東から大阪・京都へ向かう動きが増加（りそな総合研究所）",
+      "url": "https://honichi.com/news/2026/11/26/inbound-route",
+      "published_at": "2026-11-26T07:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "りそな総合研究所株式会社は、「訪日客の観光ルートをめぐる変化」と題した特集レポートを公表しました。発表によると、コロナ後の観光ルートの変化により、関西が新たな強みを得ているとしています。なお同レポートでは、国土交通省の「訪日外国人流動データ」をもとに、インバウンドの移動状況を2019年と2024年で比較しています。",
+      "summary": "りそな総合研究所株式会社は、「訪日客の観光ルートをめぐる変化」と題した特集レポートを公表しました。発表によると、コロナ後の観光ルートの変化により、関西が新たな強みを得ているとしています。なお同レポートでは、国土交通省の「訪日外国人流動データ」をもとに、インバウンドの移動状況を2019年と2024年で比較しています。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [],
+      "image_url": ""
+    },
+    {
+      "id": "9535e491eb54e2dc",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "東横イン価格は1室2名1.14万円・1名9,763円｜曜日別の早見表【2026年12月】",
+      "url": "https://hotelbank.jp/lifestyle/toyoko-inn-price-guide-2026",
+      "published_at": "2026-11-26T04:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "東横インの価格は2026年12月の宿泊で1室2名が平均11,434円、1名利用が平均9,763円（税込・掲載価格）。日〜木曜なら1室2名11,270円が目安です。月別・曜日別の早見表と、無料朝食などの料金に含まれるサービスをまとめます。",
+      "summary": "東横インの価格は2026年12月の宿泊で1室2名が平均11,434円、1名利用が平均9,763円（税込・掲載価格）。日〜木曜なら1室2名11,270円が目安です。月別・曜日別の早見表と、無料朝食などの料金に含まれるサービスをまとめます。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "ライフスタイル",
+        "無料朝食",
+        "東横INNクラブカード",
+        "東横イン",
+        "掲載価格",
+        "東横INN"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195827-auto.png"
+    },
+    {
+      "id": "b46868fb61711669",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "カウントダウンジャパン2026のホテル、幕張3km圏は11軒4,376室 — 休演日12/28も月曜の1.9倍",
+      "url": "https://hotelbank.jp/seasonal-events/countdown-japan-26-27-makuhari-3km-11-hotels-4376-rooms-rest-day-dec-28-listed-prices",
+      "published_at": "2026-11-25T21:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "カウントダウンジャパン26/27（12/26・27・29・30・31）の幕張周辺ホテルは、海浜幕張駅3km圏で稼働中11軒4,376室。11月17日時点の掲載価格は会期中4万円台、休演日の12/28も3.1万円で平常の月曜の1.9倍だった。前回の日別価格、千葉市美浜区のADR、京葉線沿線への分散を整理する。",
+      "summary": "カウントダウンジャパン26/27（12/26・27・29・30・31）の幕張周辺ホテルは、海浜幕張駅3km圏で稼働中11軒4,376室。11月17日時点の掲載価格は会期中4万円台、休演日の12/28も3.1万円で平常の月曜の1.9倍だった。前回の日別価格、千葉市美浜区のADR、京葉線沿線への分散を整理する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "季節・イベント",
+        "COUNTDOWN JAPAN",
+        "カウントダウンジャパン",
+        "音楽フェス",
+        "幕張メッセ",
+        "千葉市美浜区"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-194731-auto.png"
+    },
+    {
+      "id": "a06db03adde6d585",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "甲府駅のホテル投資・立地評価｜1km圏の客室は9年で2,124→2,032室、市ADR8,362円・就業2.04万人",
+      "url": "https://hotelbank.jp/investment/kofu-station-1km-hotel-investment-location-2032-rooms-adr-8362-flood-required-adr-2026",
+      "published_at": "2026-11-25T20:50:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "甲府駅1km圏の客室は9年で2,124室→2,032室と県都8駅で唯一減少し、甲府市の推定成約ADRは2026年10月8,362円（前年比+13.7%）。就業2.04万人、浸水想定48.8%を踏まえ、新築100室の必要ADR約8,800〜16,000円を試算する。",
+      "summary": "甲府駅1km圏の客室は9年で2,124室→2,032室と県都8駅で唯一減少し、甲府市の推定成約ADRは2026年10月8,362円（前年比+13.7%）。就業2.04万人、浸水想定48.8%を踏まえ、新築100室の必要ADR約8,800〜16,000円を試算する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "甲府駅",
+        "駅前ホテル",
+        "洪水浸水想定区域",
+        "必要ADR",
+        "立地評価"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195047-auto.png"
+    },
     {
       "id": "67a444eac5486a4d",
       "source_id": "honichi",
@@ -314,6 +724,25 @@
         "ホテル投資"
       ],
       "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195033-auto.png"
+    },
+    {
+      "id": "58b7e3b20e7ba2a5",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "2人以上世帯のネット「旅行」支出は8％増、ネット消費全体の伸びをけん引 ―家計消費状況調査（2026年9月）",
+      "url": "https://www.travelvoice.jp/20261126-160910",
+      "published_at": "2026-11-25T09:00:00+09:00",
+      "collected_at": "2026-11-26T13:34:08.848569+09:00",
+      "excerpt": "総務省統計局による「家計消費状況調査」によると、2026年9月の二人以上の世帯のネットショッピング支出額は前年比0.6％増の2万6303円。そのうち旅行関係費は6255円で前年比8.0％増となった。",
+      "summary": "総務省統計局による「家計消費状況調査」によると、2026年9月の二人以上の世帯のネットショッピング支出額は前年比0.6％増の2万6303円。そのうち旅行関係費は6255円で前年比8.0％増となった。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "図解シリーズ",
+        "調査"
+      ],
+      "image_url": ""
     },
     {
       "id": "326665efa4aff5b6",
