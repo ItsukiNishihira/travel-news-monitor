@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updated_at": "2026-11-26T13:34:08.848569+09:00",
-    "total_articles": 123,
-    "new_articles_last_run": 19,
+    "updated_at": "2026-11-27T13:38:14.222089+09:00",
+    "total_articles": 143,
+    "new_articles_last_run": 20,
     "ai_summaries_last_run": 0,
     "topic_counts": {
       "miyako_ishigaki": 0,
-      "okinawa": 5,
-      "dx": 38
+      "okinawa": 6,
+      "dx": 40
     },
     "topics": [
       {
@@ -37,7 +37,7 @@
         "status": "ok",
         "fetched_count": 10,
         "method": "rss:https://hotelbank.jp/feed/",
-        "checked_at": "2026-11-26T13:34:08.848569+09:00"
+        "checked_at": "2026-11-27T13:38:14.222089+09:00"
       },
       {
         "id": "honichi",
@@ -46,7 +46,7 @@
         "status": "ok",
         "fetched_count": 11,
         "method": "rss:https://honichi.com/feed",
-        "checked_at": "2026-11-26T13:34:08.848569+09:00"
+        "checked_at": "2026-11-27T13:38:14.222089+09:00"
       },
       {
         "id": "travelvoice",
@@ -55,11 +55,440 @@
         "status": "ok",
         "fetched_count": 10,
         "method": "rss:https://www.travelvoice.jp/feed",
-        "checked_at": "2026-11-26T13:34:08.848569+09:00"
+        "checked_at": "2026-11-27T13:38:14.222089+09:00"
       }
     ]
   },
   "articles": [
+    {
+      "id": "ca7b4a1263a84e5e",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "イベント会場に近いホテル、口コミで語られる100軒 — 言及1.53万件と単価の関係【2026】",
+      "url": "https://hotelbank.jp/investment/event-venue-nearby-hotels-review-top100-mention-rate-adr-required-adr-2026",
+      "published_at": "2026-11-27T12:11:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "口コミで会場の近さが語られるホテル上位100軒（言及15,326件）を棚卸し。推定成約ADRは所在市区の中央値の1.06倍で言及率とはほぼ無相関だが、東京ドームの平日公演日は水道橋19施設の掲載価格が+23%。地価と200室新築の必要ADRも試算する。",
+      "summary": "口コミで会場の近さが語られるホテル上位100軒（言及15,326件）を棚卸し。推定成約ADRは所在市区の中央値の1.06倍で言及率とはほぼ無相関だが、東京ドームの平日公演日は水道橋19施設の掲載価格が+23%。地価と200室新築の必要ADRも試算する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "イベント会場",
+        "地価公示",
+        "推定成約ADR",
+        "水道橋",
+        "東京ドーム"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195029-auto.png"
+    },
+    {
+      "id": "6d896ff0a921bec2",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "アパホテルTKP日暮里駅前に新館63室、2028年夏 — 敷地62坪の増築採算と駅1km圏1,168室",
+      "url": "https://hotelbank.jp/investment/apa-hotel-tkp-nippori-ekimae-annex-63-rooms-2028-expansion-economics-1km-supply",
+      "published_at": "2026-11-27T11:12:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "アパホテル〈TKP日暮里駅前〉は既存278室の近隣に63室の新館を増築し、2028年夏に341室体制へ。駅1km圏の稼働客室1,168室と荒川区ADR¥16,447（2026年10月）を踏まえ、建設費8.0億円の前提でGOP利回りを3シナリオと2軸感度で試算する。",
+      "summary": "アパホテル〈TKP日暮里駅前〉は既存278室の近隣に63室の新館を増築し、2028年夏に341室体制へ。駅1km圏の稼働客室1,168室と荒川区ADR¥16,447（2026年10月）を踏まえ、建設費8.0億円の前提でGOP利回りを3シナリオと2軸感度で試算する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "TKP",
+        "日暮里",
+        "増築",
+        "荒川区",
+        "建設費"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195037-auto.png"
+    },
+    {
+      "id": "007b928df919c379",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "「BASE LAYER HOTEL KOBE SANNOMIYA」開業、神戸の文化とつながるホテルづくりとは",
+      "url": "https://hotelbank.jp/new-hotels/hyogo-base-layer-hotel-kobe-sannomiya-2611open",
+      "published_at": "2026-11-27T11:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "霞ヶ関キャピタルグループのFHG hotels株式会社と株式会社GREENINGは2026年11月10日、兵庫県神戸市中央区にカルチャービジネスホテル「BASE LAYER HOTEL KOBE SANNOMIYA」を開業した。旧居留地から北野異人館街へと続くトアロードに位置する同ホテルは、「街を遊ぶ、ビジネスホテルの新しいカタチ」をコンセプトに、快適な宿泊環境と地域の文化を楽しむ滞在を提案する […]",
+      "summary": "霞ヶ関キャピタルグループのFHG hotels株式会社と株式会社GREENINGは2026年11月10日、兵庫県神戸市中央区にカルチャービジネスホテル「BASE LAYER HOTEL KOBE SANNOMIYA」を開業した。旧居留地から北野異人館街へと続くトアロードに位置する同ホテルは、「街を遊ぶ、ビジネスホテルの新しいカタチ」をコンセプトに、快適な宿泊環境と地域の文化を楽しむ滞在を提案する […]",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "取材",
+        "新規ホテル情報",
+        "近畿"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/sub17-43.jpg"
+    },
+    {
+      "id": "f01ae81fd89eca6b",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "沖縄のホテル単価、客数減の秋に上昇 — 推定成約ADRは10月ビジネス+12.5%・シティ+14.2%",
+      "url": "https://hotelbank.jp/revenue-management/okinawa-hotel-adr-autumn-2026-yoy",
+      "published_at": "2026-11-27T10:27:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "沖縄県のホテルの推定成約ADR（税抜相当）は2026年10月、ビジネス¥9,103（前年同月比+12.5%）、シティ¥19,993（+14.2%）。入域観光客数が4.3%減のなかでの上昇を、母集団をそろえた比較と12月のブッキングカーブから読み解く。",
+      "summary": "沖縄県のホテルの推定成約ADR（税抜相当）は2026年10月、ビジネス¥9,103（前年同月比+12.5%）、シティ¥19,993（+14.2%）。入域観光客数が4.3%減のなかでの上昇を、母集団をそろえた比較と12月のブッキングカーブから読み解く。",
+      "summary_type": "excerpt",
+      "topics": [
+        "okinawa",
+        "dx"
+      ],
+      "matched_keywords": [
+        "沖縄",
+        "okinawa",
+        "naha",
+        "レベニューマネジメント",
+        "レベニュー",
+        "ブッキングカーブ",
+        "revenue-management"
+      ],
+      "tags": [
+        "エリア・施設分析",
+        "レベニューマネジメント",
+        "NAHAマラソン",
+        "入域観光客数",
+        "推定成約ADR",
+        "シティホテル"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-196029-auto.png"
+    },
+    {
+      "id": "7ec232907c2de6f6",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "HOTEL AZ岡山備前店157室が開業｜シングル6,380円、5km圏224室の7割を担う新設1棟",
+      "url": "https://hotelbank.jp/supply-pipeline/hotel-az-okayama-bizen-157-rooms-opening-5km-room-stock-2026",
+      "published_at": "2026-11-27T10:10:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "HOTEL AZ岡山備前店は2026年10月15日、岡山県備前市に157室で開業した。シングル6,380円（税込）で朝食と駐車場132台が無料。半径5km圏の客室224室の7割を担い、年末年始を含む52日間の掲載価格は2名1室9,378円で同額だった。周辺の需要と料金水準を整理する。",
+      "summary": "HOTEL AZ岡山備前店は2026年10月15日、岡山県備前市に157室で開業した。シングル6,380円（税込）で朝食と駐車場132台が無料。半径5km圏の客室224室の7割を担い、年末年始を含む52日間の掲載価格は2名1室9,378円で同額だった。周辺の需要と料金水準を整理する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "新規開業・供給",
+        "365日同一価格",
+        "アメイズ",
+        "HOTEL AZ",
+        "備前市",
+        "客室ストック"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195250-auto.png"
+    },
+    {
+      "id": "e6964267309d8c2f",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "キッズルームが口コミで評価されるホテル100軒、改修費用は1室1泊15〜169円の試算 — 言及3.3万件・千葉18軒",
+      "url": "https://hotelbank.jp/investment/kids-room-review-top100-chiba-18-playroom-renovation-cost-per-room-2026",
+      "published_at": "2026-11-27T10:08:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "キッズルームや遊び場など子ども向け設備が口コミで肯定的に語られるホテル上位100軒は、肯定言及3万3,021件。単価は所在市区町村の推定成約ADR中央値の1.28倍（N=78軒）。プレイルーム新設費を1室1泊に換算すると約15〜169円（試算）。千葉18軒・静岡8軒。",
+      "summary": "キッズルームや遊び場など子ども向け設備が口コミで肯定的に語られるホテル上位100軒は、肯定言及3万3,021件。単価は所在市区町村の推定成約ADR中央値の1.28倍（N=78軒）。プレイルーム新設費を1室1泊に換算すると約15〜169円（試算）。千葉18軒・静岡8軒。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "キッズルーム",
+        "設備投資",
+        "グランドメルキュール",
+        "ファミリー需要",
+        "千葉県"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195322-auto.png"
+    },
+    {
+      "id": "6a26699c88753c7a",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "宮城のビジネスホテル推定成約ADR、10月は前年比+18.9% — 確定月で読む上昇の中身と12月の予約進捗",
+      "url": "https://hotelbank.jp/revenue-management/miyagi-business-city-adr-yoy-2026-10",
+      "published_at": "2026-11-27T10:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "宮城県のビジネスホテル（N=140）の推定成約ADRは2026年10月に¥8,478と前年同月比+18.9%、シティホテル（N=21）は+12.4%。確定月同士の前年比で上昇の中身を読み、光のページェントを控えた12月の予約進捗とRM実務の打ち手を整理する。",
+      "summary": "宮城県のビジネスホテル（N=140）の推定成約ADRは2026年10月に¥8,478と前年同月比+18.9%、シティホテル（N=21）は+12.4%。確定月同士の前年比で上昇の中身を読み、光のページェントを控えた12月の予約進捗とRM実務の打ち手を整理する。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "レベニューマネジメント",
+        "レベニュー",
+        "revenue-management"
+      ],
+      "tags": [
+        "エリア・施設分析",
+        "レベニューマネジメント",
+        "SENDAI光のページェント",
+        "推定成約ADR",
+        "前年同月比",
+        "宮城県"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195873-auto.png"
+    },
+    {
+      "id": "b6d6929b035d9efd",
+      "source_id": "honichi",
+      "source_name": "訪日ラボ",
+      "title": "西鉄ホテルズ、アパートメントホテル事業へ参入訪日客の中長期滞在ニーズに対応",
+      "url": "https://honichi.com/news/2026/11/27/nishitetsu_coatt",
+      "published_at": "2026-11-27T10:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "株式会社西鉄ホテルズは11月6日に開催された新ブランド発表会にて、アパートメントホテル事業への参入を表明し、新ブランド「CoATT」の立ち上げを発表しました。2029年に「東京・両国」「大阪・なんば」「札幌・すすきの」での開業を予定しており、インバウンド需要の拡大に伴う多人数・中長期滞在の需要増に対応します。",
+      "summary": "株式会社西鉄ホテルズは11月6日に開催された新ブランド発表会にて、アパートメントホテル事業への参入を表明し、新ブランド「CoATT」の立ち上げを発表しました。2029年に「東京・両国」「大阪・なんば」「札幌・すすきの」での開業を予定しており、インバウンド需要の拡大に伴う多人数・中長期滞在の需要増に対応します。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [],
+      "image_url": ""
+    },
+    {
+      "id": "be92dd62faac153e",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "【取材】箱根に「スイートヴィラCalmwoods元箱根」開業、森に囲まれた一棟貸し別荘の魅力",
+      "url": "https://hotelbank.jp/new-hotels/kanagawa-calmwoodshakone-2610open",
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "リソル不動産株式会社は2026年10月31日、神奈川県箱根町に一棟貸しの別荘「スイートヴィラCalmwoods元箱根」を開業した。同社が展開する別荘シェア利用事業「リソルステイ」の新施設で、芦ノ湖から車で約10分、大芝別荘地の森に囲まれた場所に位置する。建物は延床面積149.22㎡の3LDKで、最大8名が宿泊可能。2階まで続く吹き抜けのリビングやオープンキッチン、和室を含む3つの寝室を備える。 […]",
+      "summary": "リソル不動産株式会社は2026年10月31日、神奈川県箱根町に一棟貸しの別荘「スイートヴィラCalmwoods元箱根」を開業した。同社が展開する別荘シェア利用事業「リソルステイ」の新施設で、芦ノ湖から車で約10分、大芝別荘地の森に囲まれた場所に位置する。建物は延床面積149.22㎡の3LDKで、最大8名が宿泊可能。2階まで続く吹き抜けのリビングやオープンキッチン、和室を含む3つの寝室を備える。 […]",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "取材",
+        "新規ホテル情報",
+        "関東"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/main-97.png"
+    },
+    {
+      "id": "508b154fde6c57f6",
+      "source_id": "honichi",
+      "source_name": "訪日ラボ",
+      "title": "中部国際空港、営業利益17.6％減で減収減益韓国路線は過去最高便数に（2027年3月期中間決算）",
+      "url": "https://honichi.com/news/2026/11/27/chubu-airport-fy2027-q2",
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "中部国際空港株式会社は11月13日、2027年3月期の中間決算（2026年4～9月）を発表しました。物価上昇や人手不足に伴う運営費の上昇、金利上昇の影響を受ける中、売上高・営業利益ともに前年同期を下回りました。一方で、韓国・台湾・東南アジア路線は好調に推移し、とくに韓国路線は過去最高便数を記録しています。",
+      "summary": "中部国際空港株式会社は11月13日、2027年3月期の中間決算（2026年4～9月）を発表しました。物価上昇や人手不足に伴う運営費の上昇、金利上昇の影響を受ける中、売上高・営業利益ともに前年同期を下回りました。一方で、韓国・台湾・東南アジア路線は好調に推移し、とくに韓国路線は過去最高便数を記録しています。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [],
+      "image_url": ""
+    },
+    {
+      "id": "ee19608149351963",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "宿泊・航空・ツアー成約率を上げる「6つの打ち手」とは？世界の旅行予約データと1万人調査から読み解く、最新の旅行動向レポート公開、ダウンロード無料（PR）",
+      "url": "https://www.travelvoice.jp/20261127-160881",
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "（PR）Criteoが「旅行トレンドレポート2026年秋・冬版」を公開。提携サイトの予約・購買データや旅行者調査から市場動向を分析し、観光事業者やDMOに需要獲得のヒントを提示する。",
+      "summary": "（PR）Criteoが「旅行トレンドレポート2026年秋・冬版」を公開。提携サイトの予約・購買データや旅行者調査から市場動向を分析し、観光事業者やDMOに需要獲得のヒントを提示する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "PR",
+        "データ",
+        "マーケティング",
+        "調査"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "b4a7841199352b26",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "北東アジアのベスト航空会社にANA、JALは機内食とWi-Fiで2冠、スターフライヤーは機内サービス首位 ―APEX FTE EXPO 2026",
+      "url": "https://www.travelvoice.jp/20261127-160915",
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "APEXは、アジアおよび南太平洋地域における「2027年APEXベスト地域賞」を発表。北東アジアの総合ベスト航空会社はANA。JALは機内食と機内Wi-Fiで受賞。",
+      "summary": "APEXは、アジアおよび南太平洋地域における「2027年APEXベスト地域賞」を発表。北東アジアの総合ベスト航空会社はANA。JALは機内食と機内Wi-Fiで受賞。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "アワード、認定",
+        "スターフライヤー",
+        "全日空（ANA）",
+        "日本航空（JAL）"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "6cf141887d52b070",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "ミキ・ツーリスト、四国に初のインバウンド推進拠点を開設、高付加価値観光コンテンツを開発、B2Bネットワークも強化",
+      "url": "https://www.travelvoice.jp/20261127-160923",
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "ミキ・ツーリストは、四国エリアにおける初のインバウンド推進拠点として、香川県高松市に「四国デスティネーションHub」を開設。高付加価値な観光コンテンツの整備および国内外への流通拡大を進める。",
+      "summary": "ミキ・ツーリストは、四国エリアにおける初のインバウンド推進拠点として、香川県高松市に「四国デスティネーションHub」を開設。高付加価値な観光コンテンツの整備および国内外への流通拡大を進める。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "BtoB",
+        "DMO",
+        "旅行会社",
+        "訪日インバウンド"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "13c2d4bca5b29945",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "KAWAII（かわいい）文化でインバウンドを日本各地へ、渋谷の縁日から温泉街へ広がるアソビJTBの参加型体験づくりを取材した",
+      "url": "https://www.travelvoice.jp/20261130-160787",
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "アソビJTBは、渋谷区のMIYASHITA PARKで「KAWAII縁日あそべるアートとプレイパーク」を開催。原宿につづく第2弾。来年からはKAWAIIと温泉文化を融合した取り組みで地方にも進出する。",
+      "summary": "アソビJTBは、渋谷区のMIYASHITA PARKで「KAWAII縁日あそべるアートとプレイパーク」を開催。原宿につづく第2弾。来年からはKAWAIIと温泉文化を融合した取り組みで地方にも進出する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "JTB",
+        "イベント",
+        "経営戦略、事業計画",
+        "訪日インバウンド"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "6a9b9e321cb08ed1",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "観光地経営のあり方に変化、世界で「スチュワードシップ」が進む理由、DMOの限界とDSOでの解決【コラム】",
+      "url": "https://www.travelvoice.jp/20261126-160615",
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "日本交通公社の山田雄一氏による連載コラム。ＤMO機能の限界と「デスティネーション・スチュワードシップ（DS）」の世界的な潮流を解説。看板の付け替えではない現実的な地域振興体制を考える。",
+      "summary": "日本交通公社の山田雄一氏による連載コラム。ＤMO機能の限界と「デスティネーション・スチュワードシップ（DS）」の世界的な潮流を解説。看板の付け替えではない現実的な地域振興体制を考える。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "コラム",
+        "DMO"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "84958c640786ff84",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "米国の感謝祭期間の旅行、移動手段に変化、バス・鉄道の利用増、航空は運賃高騰と運航トラブルで相次ぐシステム障害も影響",
+      "url": "https://www.travelvoice.jp/20261126-160930",
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "ロイター通信は、米国の2026年の感謝祭休暇についてリポート。座席供給量は増加も、過去10年で最高水準の運賃で利用者は減少の見込み。航空管制の混乱も航空旅行に影響している可能性も指摘。",
+      "summary": "ロイター通信は、米国の2026年の感謝祭休暇についてリポート。座席供給量は増加も、過去10年で最高水準の運賃で利用者は減少の見込み。航空管制の混乱も航空旅行に影響している可能性も指摘。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "ロイター通信",
+        "航空会社",
+        "需要予測",
+        "外電"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "1ba7bcefb9869905",
+      "source_id": "honichi",
+      "source_name": "訪日ラボ",
+      "title": "【11月4週人気記事】2027年の注目旅行先、韓国で函館の検索数が前年比443％増にほか｜インバウンドニュース週間アクセスTOP5",
+      "url": "https://honichi.com/news/2026/11/27/accessranking_20261127",
+      "published_at": "2026-11-27T08:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "この1週間でアクセス数が多かった、インバウンドニュースのランキングを発表します！見逃している記事があれば、この機会にぜひご覧ください。",
+      "summary": "この1週間でアクセス数が多かった、インバウンドニュースのランキングを発表します！見逃している記事があれば、この機会にぜひご覧ください。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [],
+      "image_url": ""
+    },
+    {
+      "id": "3986fb31300fe8bc",
+      "source_id": "honichi",
+      "source_name": "訪日ラボ",
+      "title": "訪日客の体験予約数、石川は約4.6倍・長野は約3倍に全体の予約件数は87.3％増（JTB BÓKUN予約データ）",
+      "url": "https://honichi.com/news/2026/11/27/jtb-bokun-experience-data-2026",
+      "published_at": "2026-11-27T07:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "JTBがまとめた観光事業者向け予約・販売管理システム「JTB BÓKUN」の予約データによると、2024年8月～2025年7月と2025年8月～2026年7月の比較では、予約件数が35万9,802件から67万3,866件へと87.3％増加しました。また、予約料金総額は約58.1億円から約128.3億円へと約2.2倍になっています。同データでは、国・地域によって訪れるエリアや予約を行うタイミングに異なる傾向があることが示されています。",
+      "summary": "JTBがまとめた観光事業者向け予約・販売管理システム「JTB BÓKUN」の予約データによると、2024年8月～2025年7月と2025年8月～2026年7月の比較では、予約件数が35万9,802件から67万3,866件へと87.3％増加しました。また、予約料金総額は約58.1億円から約128.3億円へと約2.2倍になっています。同データでは、国・地域によって訪れるエリアや予約を行うタイミングに異なる傾向があることが示されています。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [],
+      "image_url": ""
+    },
+    {
+      "id": "b1b8db79736f31bd",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "杉乃井ホテルのミキハウスルームは宙館の子連れ部屋｜46.85㎡・2〜5名、予約の取り方と料金の目安",
+      "url": "https://hotelbank.jp/lifestyle/suginoi-hotel-mikihouse-room-guide",
+      "published_at": "2026-11-27T04:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "杉乃井ホテルのミキハウスルームは宙館にある46.85㎡・定員2〜5名の子連れ向けコラボルーム。補助便座やオムツ用ゴミ箱などの備品、子どもの年齢区分、公式サイトでの予約の流れ、施設全体の12月平日の最安値の目安（1室2名31,400円）、満室時の代わりの部屋をまとめました。",
+      "summary": "杉乃井ホテルのミキハウスルームは宙館にある46.85㎡・定員2〜5名の子連れ向けコラボルーム。補助便座やオムツ用ゴミ箱などの備品、子どもの年齢区分、公式サイトでの予約の流れ、施設全体の12月平日の最安値の目安（1室2名31,400円）、満室時の代わりの部屋をまとめました。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "ライフスタイル",
+        "ミキハウスルーム",
+        "宙館",
+        "ファミリールーム",
+        "添い寝",
+        "別府温泉"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195941-auto.png"
+    },
+    {
+      "id": "04f90eb52f7b4877",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "福岡のアパートメントホテルは博多区に8割 — 営業中23軒458室、4名利用なら1人8,300円",
+      "url": "https://hotelbank.jp/area-analysis/fukuoka-apartment-hotel-hakata-ku-23-properties-458-rooms-per-person-price-2026",
+      "published_at": "2026-11-26T21:00:00+09:00",
+      "collected_at": "2026-11-27T13:38:14.222089+09:00",
+      "excerpt": "福岡市のアパートメントホテルは名称ベースで営業中23軒458室、客室の81.2%が博多区に集まる。大人4名利用なら1人あたり約8,300円と周辺ビジネスホテルの約12,300円を下回る。客室ストック、区別ADR、口コミの言語構成から人数帯の棲み分けを分析する。",
+      "summary": "福岡市のアパートメントホテルは名称ベースで営業中23軒458室、客室の81.2%が博多区に集まる。大人4名利用なら1人あたり約8,300円と周辺ビジネスホテルの約12,300円を下回る。客室ストック、区別ADR、口コミの言語構成から人数帯の棲み分けを分析する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "エリア・施設分析",
+        "博多区",
+        "客室ストック",
+        "推定成約ADR",
+        "韓国",
+        "アパートメントホテル"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195114-auto.png"
+    },
     {
       "id": "1079ff923c940f28",
       "source_id": "hotelbank",
