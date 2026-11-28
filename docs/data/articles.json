@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updated_at": "2026-11-27T13:38:14.222089+09:00",
-    "total_articles": 143,
-    "new_articles_last_run": 20,
+    "updated_at": "2026-11-28T13:23:28.803580+09:00",
+    "total_articles": 158,
+    "new_articles_last_run": 15,
     "ai_summaries_last_run": 0,
     "topic_counts": {
       "miyako_ishigaki": 0,
       "okinawa": 6,
-      "dx": 40
+      "dx": 43
     },
     "topics": [
       {
@@ -37,7 +37,7 @@
         "status": "ok",
         "fetched_count": 10,
         "method": "rss:https://hotelbank.jp/feed/",
-        "checked_at": "2026-11-27T13:38:14.222089+09:00"
+        "checked_at": "2026-11-28T13:23:28.803580+09:00"
       },
       {
         "id": "honichi",
@@ -46,7 +46,7 @@
         "status": "ok",
         "fetched_count": 11,
         "method": "rss:https://honichi.com/feed",
-        "checked_at": "2026-11-27T13:38:14.222089+09:00"
+        "checked_at": "2026-11-28T13:23:28.803580+09:00"
       },
       {
         "id": "travelvoice",
@@ -55,11 +55,272 @@
         "status": "ok",
         "fetched_count": 10,
         "method": "rss:https://www.travelvoice.jp/feed",
-        "checked_at": "2026-11-27T13:38:14.222089+09:00"
+        "checked_at": "2026-11-28T13:23:28.803580+09:00"
       }
     ]
   },
   "articles": [
+    {
+      "id": "ea5c8997213bbf22",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "大分県の旅館、お盆8/13は7日前で33%が完売 — 9月5連休は95%、由布院・別府・九重のADR×完売LT",
+      "url": "https://hotelbank.jp/investment/oita-ryokan-obon-2026-sellout-33pct-silver-week-95pct-adr-positioning-whitespace",
+      "published_at": "2026-11-28T12:12:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "大分県の旅館は2026年のお盆8月13日、宿泊日の7日前に208軒中69軒（33%）が予約サイト上で完売（残室0）だった。9月の5連休は95%、45日前でも63%。由布市・別府市・九重町の推定成約ADRと完売の早さを重ね、2万円以上×21室以上が16軒・618室にとどまる供給の薄い領域を読む。",
+      "summary": "大分県の旅館は2026年のお盆8月13日、宿泊日の7日前に208軒中69軒（33%）が予約サイト上で完売（残室0）だった。9月の5連休は95%、45日前でも63%。由布市・別府市・九重町の推定成約ADRと完売の早さを重ね、2万円以上×21室以上が16軒・618室にとどまる供給の薄い領域を読む。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "推定成約ADR",
+        "大分県",
+        "ホワイトスペース",
+        "九重町",
+        "旅館投資"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195166-auto.png"
+    },
+    {
+      "id": "8650894737a5ccbb",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "奈良県ホテル投資マップ2026｜吉野1.9万円・奈良市1.58万円・橿原7,230円、50室の必要ADRは3万円",
+      "url": "https://hotelbank.jp/investment/nara-prefecture-hotel-investment-map-2026-municipality-settled-adr-yoshino-tenkawa-kashihara",
+      "published_at": "2026-11-28T11:11:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "奈良県の市町村別の推定成約ADR（2026年10月）は吉野町1.90万円・天川村1.77万円・奈良市1.58万円、橿原・天理・桜井は7千〜8千円台。客室は近鉄奈良駅3km圏に79%が集中し、2万〜5万円帯は9施設471室。50室新設の必要ADRを約3.0万円と試算する。",
+      "summary": "奈良県の市町村別の推定成約ADR（2026年10月）は吉野町1.90万円・天川村1.77万円・奈良市1.58万円、橿原・天理・桜井は7千〜8千円台。客室は近鉄奈良駅3km圏に79%が集中し、2万〜5万円帯は9施設471室。50室新設の必要ADRを約3.0万円と試算する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "吉野町",
+        "天川村",
+        "必要ADR",
+        "橿原市",
+        "奈良県"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195171-auto.png"
+    },
+    {
+      "id": "a10d51dfaa528835",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "湯沢町の12月ブッキングカーブ — スキー場開幕が重なる12/19土は45日前62.3%→68.6%、大晦日は85.1%",
+      "url": "https://hotelbank.jp/revenue-management/yuzawa-december-2026-booking-curve-ski-opening",
+      "published_at": "2026-11-28T10:12:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "新潟県湯沢町の12月〜年始の予約進捗を、スキー場各社の営業開始日と重ねて分析。開幕が集中する12月19日（土）泊の推定OCCは45日前62.3%から68.6%へ、12月31日泊は85.1%。推定成約ADRの前年比と、運営者向けのアクションプランを整理した。",
+      "summary": "新潟県湯沢町の12月〜年始の予約進捗を、スキー場各社の営業開始日と重ねて分析。開幕が集中する12月19日（土）泊の推定OCCは45日前62.3%から68.6%へ、12月31日泊は85.1%。推定成約ADRの前年比と、運営者向けのアクションプランを整理した。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "レベニューマネジメント",
+        "レベニュー",
+        "ブッキングカーブ",
+        "revenue-management"
+      ],
+      "tags": [
+        "レベニューマネジメント",
+        "季節・イベント",
+        "冬季需要",
+        "スキー場",
+        "湯沢町",
+        "推定成約ADR"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-196068-auto.png"
+    },
+    {
+      "id": "b19135b281364acc",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "ラグザ大阪を53.3億円で譲渡｜ホテル阪神大阪の入る福島駅前複合、鑑定比+9.0%・NCF利回り3.7%",
+      "url": "https://hotelbank.jp/investment/ragza-osaka-hotel-hanshin-osaka-sale-5330m-appraisal-plus-9pct-ncf-yield-fukushima-1km-stock-2026",
+      "published_at": "2026-11-28T10:00:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "阪急阪神リート投資法人はラグザ大阪（ホテル阪神大阪290室が入る福島駅前の複合施設）を53.3億円で譲渡する。鑑定評価額48.9億円を9.0%、簿価を7.9%上回る価格の背景を、月額賃料4,100万円・年1.6億円の修繕更新費・鑑定NCFベース3.7%の利回り、1km圏で47%増えた客室ストックと周辺ADRから読む。",
+      "summary": "阪急阪神リート投資法人はラグザ大阪（ホテル阪神大阪290室が入る福島駅前の複合施設）を53.3億円で譲渡する。鑑定評価額48.9億円を9.0%、簿価を7.9%上回る価格の背景を、月額賃料4,100万円・年1.6億円の修繕更新費・鑑定NCFベース3.7%の利回り、1km圏で47%増えた客室ストックと周辺ADRから読む。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "ホテル阪神大阪",
+        "ラグザ大阪",
+        "大阪市福島区",
+        "鑑定評価",
+        "阪急阪神リート投資法人"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195148-auto.png"
+    },
+    {
+      "id": "c3f4f9768f95f386",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "朝食のパンが評判のホテル口コミ上位100軒｜73軒はビジネスホテル、焼成の設備と人員は1室1泊43円から【2026】",
+      "url": "https://hotelbank.jp/industry-trends/breakfast-bread-review-top100-business-hotel-bakery-capex-per-room-2026",
+      "published_at": "2026-11-28T10:00:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "朝食のパンが口コミで評判のホテル上位100軒は、73軒がビジネスホテルで東京15・大阪13・神奈川9軒。言及率20%以上の33軒はADR中央値8,900円だった。朝食付きの上乗せ額と、焼成の設備・人員を133室で1室1泊43〜121円と試算する。",
+      "summary": "朝食のパンが口コミで評判のホテル上位100軒は、73軒がビジネスホテルで東京15・大阪13・神奈川9軒。言及率20%以上の33軒はADR中央値8,900円だった。朝食付きの上乗せ額と、焼成の設備・人員を133室で1室1泊43〜121円と試算する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "業界トレンド",
+        "1室あたりコスト",
+        "ベーカリー設備",
+        "朝食付きプラン",
+        "焼きたてパン",
+        "朝食"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195220-auto.png"
+    },
+    {
+      "id": "5804606450d30a7c",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "北欧からの訪日客、2025年は19万2,876人・+28.0% — 10月が山、冬は北海道へ向かう泊まる県と冬ADR",
+      "url": "https://hotelbank.jp/inbound/nordic-inbound-2025-192876-october-record-prefectures-hokkaido-winter-adr",
+      "published_at": "2026-11-28T10:00:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "北欧（スウェーデン・デンマーク・ノルウェー・フィンランド）からの訪日客は2025年に19万2,876人・前年比+28.0%（JNTO）。2026年10月は2万8,600人で単月最高。2026年から観光庁統計に加わった北欧地域の県別宿泊、冬の推定成約ADR、北欧4言語の口コミの評価軸を整理する。",
+      "summary": "北欧（スウェーデン・デンマーク・ノルウェー・フィンランド）からの訪日客は2025年に19万2,876人・前年比+28.0%（JNTO）。2026年10月は2万8,600人で単月最高。2026年から観光庁統計に加わった北欧地域の県別宿泊、冬の推定成約ADR、北欧4言語の口コミの評価軸を整理する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "インバウンド",
+        "スウェーデン",
+        "デンマーク",
+        "ノルウェー",
+        "フィンランド",
+        "北欧"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195366-auto.png"
+    },
+    {
+      "id": "3418a37199fd566b",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "アゼルバイジャン観光局、TVドラマ「VIVANT」で日本人旅行者の誘客へ、ロケ地から歴史・文化をめぐる旅をアピール",
+      "url": "https://www.travelvoice.jp/20261127-160929",
+      "published_at": "2026-11-28T09:00:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "アゼルバイジャン観光局が現地企業5社と来日。人気ドラマ「VIVANT」を契機に日本市場への誘客を強化する。",
+      "summary": "アゼルバイジャン観光局が現地企業5社と来日。人気ドラマ「VIVANT」を契機に日本市場への誘客を強化する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "海外旅行"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "08b43fbb085289c2",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "富良野の12月、前半の谷とクリスマス以降の高い初期値 — T-30・T-14で逆算する冬の予約進捗",
+      "url": "https://hotelbank.jp/revenue-management/furano-december-2026-booking-curve-t30-t14",
+      "published_at": "2026-11-27T21:00:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "富良野市（N=26〜29施設・約700室）の12月は、12/5の推定OCCが45日前60.3%→11日前70.2%の直前型、12/24は45日前で89.4%。道内4エリア比較と着地試算を加え、T-30・T-14の逆算カレンダーで読み解く。",
+      "summary": "富良野市（N=26〜29施設・約700室）の12月は、12/5の推定OCCが45日前60.3%→11日前70.2%の直前型、12/24は45日前で89.4%。道内4エリア比較と着地試算を加え、T-30・T-14の逆算カレンダーで読み解く。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "レベニューマネジメント",
+        "レベニュー",
+        "revenue-management"
+      ],
+      "tags": [
+        "レベニューマネジメント",
+        "季節・イベント",
+        "スキー場オープン",
+        "富良野市",
+        "12月",
+        "推定成約ADR"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195879-auto.png"
+    },
+    {
+      "id": "720a0b9077bbc1f6",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "熱海の大江戸温泉物語は売却？Premiumあたみ30.5億円で譲渡決定、水葉亭はTAOYA熱海に",
+      "url": "https://hotelbank.jp/investment/atami-ooedo-onsen-sold-premium-atami-disposition-taoya-2026",
+      "published_at": "2026-11-27T21:00:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "熱海の大江戸温泉物語Premiumあたみ（76室）は、日本ホテル＆レジデンシャル投資法人が2026年11月4日に30億5,000万円での譲渡を決定し、12月11日に引渡し予定。旧ホテル水葉亭は7月にTAOYA熱海へリブランドしたが、譲渡の開示は確認できない。取得価格・鑑定評価額と熱海の旅館ADRを整理した。",
+      "summary": "熱海の大江戸温泉物語Premiumあたみ（76室）は、日本ホテル＆レジデンシャル投資法人が2026年11月4日に30億5,000万円での譲渡を決定し、12月11日に引渡し予定。旧ホテル水葉亭は7月にTAOYA熱海へリブランドしたが、譲渡の開示は確認できない。取得価格・鑑定評価額と熱海の旅館ADRを整理した。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "TAOYA熱海",
+        "旅館売却",
+        "日本ホテル＆レジデンシャル投資法人",
+        "GENSEN HOLDINGS",
+        "鑑定評価額"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195257-auto.png"
+    },
+    {
+      "id": "14f1c7ba489d5882",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "ソラリア西鉄ホテル福岡エアポート165室は2027年夏 — 空港2km圏548室に+30%",
+      "url": "https://hotelbank.jp/investment/solaria-nishitetsu-hotel-fukuoka-airport-165-rooms-2027-supply-adr",
+      "published_at": "2026-11-27T21:00:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "ソラリア西鉄ホテル福岡エアポート（仮称）は2027年夏頃開業予定の全165室。予定地2km圏で稼働中の548室に+30%の供給となる。博多区ADR1万4,500円と比較し、GOP利回り7%に必要なADR1万4,200〜1万4,900円を試算した。",
+      "summary": "ソラリア西鉄ホテル福岡エアポート（仮称）は2027年夏頃開業予定の全165室。予定地2km圏で稼働中の548室に+30%の供給となる。博多区ADR1万4,500円と比較し、GOP利回り7%に必要なADR1万4,200〜1万4,900円を試算した。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "投資・開発",
+        "TABISIA",
+        "エアポートホテル",
+        "ソラリア西鉄ホテル福岡エアポート",
+        "西鉄ホテルズ",
+        "必要ADR"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195329-auto.png"
+    },
+    {
+      "id": "654857d539842340",
+      "source_id": "hotelbank",
+      "source_name": "HotelBank",
+      "title": "育成就労「宿泊」は5,200人・転籍制限1年で確定｜特定技能14,800人と2027年4月の採用設計",
+      "url": "https://hotelbank.jp/industry-trends/ikusei-shuro-shukuhaku-5200-transfer-1year-tokutei-gino-14800-2027",
+      "published_at": "2026-11-27T20:53:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "育成就労の宿泊分野は受入れ見込数5,200人・転籍制限期間1年、特定技能1号は14,800人で、2026年1月23日に閣議決定済み。従来の23,000人からの読み方、客室100室あたり約1.6人という枠の規模感、転籍1年を前提にした育成投資と受入れ施設要件の確認事項を、宿の運営者・人事責任者向けに整理する。",
+      "summary": "育成就労の宿泊分野は受入れ見込数5,200人・転籍制限期間1年、特定技能1号は14,800人で、2026年1月23日に閣議決定済み。従来の23,000人からの読み方、客室100室あたり約1.6人という枠の規模感、転籍1年を前提にした育成投資と受入れ施設要件の確認事項を、宿の運営者・人事責任者向けに整理する。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "業界トレンド",
+        "宿泊業の人材採用",
+        "転籍制限",
+        "技能実習",
+        "育成就労",
+        "特定技能"
+      ],
+      "image_url": "https://hotelbank.jp/wp-content/uploads/eyecatch-195017-auto.png"
+    },
     {
       "id": "ca7b4a1263a84e5e",
       "source_id": "hotelbank",
@@ -249,6 +510,91 @@
       "topics": [],
       "matched_keywords": [],
       "tags": [],
+      "image_url": ""
+    },
+    {
+      "id": "2c4ecbac5223f41f",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "商品・サービスの検索や購入でAIを使う分野、「旅行」が38%で最多、69%が最終判断は自分で ―Criteo",
+      "url": "https://www.travelvoice.jp/20261127-160791",
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "Criteo（クリテオ）は、AI時代の消費者の選び方の変化について解説するとともに、日本におけるAI活用に関する最新の調査結果を明らかにした。マイケル・コマシンスキーCEOが語る消費者を惹きつけるカギとは。",
+      "summary": "Criteo（クリテオ）は、AI時代の消費者の選び方の変化について解説するとともに、日本におけるAI活用に関する最新の調査結果を明らかにした。マイケル・コマシンスキーCEOが語る消費者を惹きつけるカギとは。",
+      "summary_type": "excerpt",
+      "topics": [
+        "dx"
+      ],
+      "matched_keywords": [
+        "AI"
+      ],
+      "tags": [
+        "AI",
+        "マーケティング",
+        "調査"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "5fd1526bc84efe5f",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "外国青年を地域に迎える「JETプログラム」とは？約8万人の人的ネットワークを関係人口として考える【コラム】",
+      "url": "https://www.travelvoice.jp/20261127-160896",
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "日本観光振興協会理事長の最明仁氏によるコラム。今回は、JETプログラム（Japan Exchange and Teaching Programme）に着目。外国青年が地域社会と関係を築いてきた人的ネットワークを、地方誘客や関係人口などの観点から捉え直す。",
+      "summary": "日本観光振興協会理事長の最明仁氏によるコラム。今回は、JETプログラム（Japan Exchange and Teaching Programme）に着目。外国青年が地域社会と関係を築いてきた人的ネットワークを、地方誘客や関係人口などの観点から捉え直す。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "コラム",
+        "関係人口"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "2f5e0a71539837d4",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "グアム観光復活へ航空・ホテル・旅行など9社共同プロジェクト始動、「なぜグアム？」で10の魅力を発信",
+      "url": "https://www.travelvoice.jp/20261127-160934",
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "ケン・ホテル＆リゾートホールディングスは、グアム観光に関わる企業と連携し、日本からの観光需要の回復を目指す「なぜグアム？」プロジェクトを始動。8社が業界の垣根を超えて参画。",
+      "summary": "ケン・ホテル＆リゾートホールディングスは、グアム観光に関わる企業と連携し、日本からの観光需要の回復を目指す「なぜグアム？」プロジェクトを始動。8社が業界の垣根を超えて参画。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "HIS",
+        "JTB",
+        "キャンペーン",
+        "グアム政府観光局",
+        "ホテル・旅館",
+        "ユナイテッド航空"
+      ],
+      "image_url": ""
+    },
+    {
+      "id": "8521a3646a8be5d1",
+      "source_id": "travelvoice",
+      "source_name": "トラベルボイス",
+      "title": "JTB中間決算、売上高6%増の5613億円、海外・訪日旅行が伸長、人件費や償却費の増加で営業利益45%減",
+      "url": "https://www.travelvoice.jp/20261127-160936",
+      "published_at": "2026-11-27T09:00:00+09:00",
+      "collected_at": "2026-11-28T13:23:28.803580+09:00",
+      "excerpt": "JTBは、2027年3月期中間期の連結決算を発表。売上高は前年同期比106%の5,613億円となった一方、営業利益は同55%の28億円、経常利益は同65%の45億円、中間純利益は同32%の21億円の減益に。",
+      "summary": "JTBは、2027年3月期中間期の連結決算を発表。売上高は前年同期比106%の5,613億円となった一方、営業利益は同55%の28億円、経常利益は同65%の45億円、中間純利益は同32%の21億円の減益に。",
+      "summary_type": "excerpt",
+      "topics": [],
+      "matched_keywords": [],
+      "tags": [
+        "JTB",
+        "決算"
+      ],
       "image_url": ""
     },
     {
